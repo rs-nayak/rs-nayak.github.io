@@ -1,16 +1,16 @@
 [
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
-    "section": "",
-    "text": "About this site"
-  },
-  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Richa Nayak",
     "section": "",
-    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites."
+    "text": "Introduction\nHello! My name is Richa, and I am a Master’s student at Boston University. Throughout my experiences and coursework, I hope to gain a strong foundation in Data Analytics and working with large datasets.\n\n\nPython Example\nThe following Python code creates a small dataset and displays a summary.\n\nimport pandas as pd\n\ndata = {\n    \"Career\": [\"Data Scientist\", \"Data Analyst\", \"Data Engineer\"],\n    \"Job_Count\": [120, 95, 80]\n}\n\ndf = pd.DataFrame(data)\n\ndf\n\n\n\n\n\n\n\n\nCareer\nJob_Count\n\n\n\n\n0\nData Scientist\n120\n\n\n1\nData Analyst\n95\n\n\n2\nData Engineer\n80"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "Hi! I’m Mariam El Jouzou, a graduate student at Boston University hoping to gain a profound understanding of data - from business problems to the technical analysis to the business insights and next steps.\nThrough my graduate studies, I’m continuing to explore new ways to apply data in a business setting."
   }
 ]
