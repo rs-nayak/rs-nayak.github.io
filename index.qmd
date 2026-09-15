@@ -2,6 +2,22 @@
 title: "Richa Nayak"
 ---
 
-This is a Quarto website.
+### Introduction
+Hello! My name is Richa, and I am a Master's student at Boston University. Throughout my experiences and coursework, I hope to gain a strong foundation in Data Analytics and working with large datasets.
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+### Python Example
+The following Python code creates a small dataset and displays a summary.
+
+```{python}
+import pandas as pd
+
+data = {
+    "Career": ["Data Scientist", "Data Analyst", "Data Engineer"],
+    "Job_Count": [120, 95, 80]
+}
+
+df = pd.DataFrame(data)
+
+df
+```
+
