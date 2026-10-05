@@ -7,11 +7,11 @@
     "text": "Exploring |"
   },
   {
-    "objectID": "about.html#hi-im-richa",
-    "href": "about.html#hi-im-richa",
+    "objectID": "about.html#a-little-about-me",
+    "href": "about.html#a-little-about-me",
     "title": "About Me",
-    "section": "",
-    "text": "I’m a graduate student studying analytics at Boston University with a background in cognitive science and computer science. My interests have always been a mix of understanding people, working with technology, and figuring out how information can be used to solve problems. That combination is what ultimately drew me toward analytics.\nThrough school and my professional experience, I’ve had the opportunity to work with real datasets across several industries, including EV charging and energy infrastructure, HVAC and building technology, sales, logistics and delivery operations, hospitality and short-term rentals, and the job market. These experiences have exposed me to different types of data and business problems, from analyzing sales and operational performance to exploring customer and market trends. I’ve found that I especially enjoy working through large or messy datasets, figuring out which patterns actually matter, and using what I find to answer practical business questions and support better decisions."
+    "section": "A Little About Me",
+    "text": "A Little About Me\nI’m a graduate student studying analytics at Boston University with a background in cognitive science and computer science. I’ve always been interested in understanding how things work, especially when it comes to the connection between people, technology, and data.\nThrough school and my professional experience, I’ve had the opportunity to work with real datasets and business problems across several industries, including EV charging and energy infrastructure, HVAC and building technology, sales, logistics and delivery operations, digital health and telehealth, short-term rentals, and the job market. These experiences have exposed me to different types of data and business questions, from analyzing sales and operational performance to exploring user behavior, customer needs, and market trends.\nI’ve found that I especially enjoy working through large or messy datasets, figuring out which patterns actually matter, and using what I find to answer practical business questions and support better decisions.\n\nEV Charging & Energy HVAC Manufacturing Sales Logistics & Delivery Digital Health & Telehealth Job Market Analytics"
   },
   {
     "objectID": "about.html#my-interests",
@@ -285,12 +285,5 @@
     "title": "Projects",
     "section": "",
     "text": "Here are a few projects that highlight my experience across business intelligence, data analytics, machine learning, and AI. Click on a project to learn more about the methods, analysis, and results.\n\n\nDelivery Performance Analysis\nBusiness Intelligence & Operations Analytics\nAnalyzed delivery operations from 2022–2025 to understand seasonal demand, truck capacity constraints, rescheduling patterns, and the relationship between temperature and operational performance.\n\nPython • Pandas • NumPy • Matplotlib • Seaborn • Statistical Analysis • Correlation Analysis\n\nView Project →\n\n\nAirbnb Rentals in Zurich\nMachine Learning & Market Analytics\nAnalyzed 2,534 Airbnb listings across Zurich using statistical modeling, machine learning, NLP, and clustering to explore pricing, host behavior, and distinct market segments.\n\nPython • Pandas • NumPy • Scikit-learn • Statsmodels • DistilBERT • K-Means • NLP\n\nView Project →\n\n\nRetrieval-Augmented Generation (RAG)\n\n In Progress\n\nAI Engineering\nCurrently developing a RAG system that combines document retrieval, vector search, and large language models to generate responses grounded in relevant source information.\n\nPython • FastAPI • LLMs • Embeddings • Vector Search • RAG • NLP\n\nView Project →"
-  },
-  {
-    "objectID": "about.html#a-little-about-me",
-    "href": "about.html#a-little-about-me",
-    "title": "About Me",
-    "section": "A Little About Me",
-    "text": "A Little About Me\nI’m a graduate student studying analytics at Boston University with a background in cognitive science and computer science. I’ve always been interested in understanding how things work, especially when it comes to the connection between people, technology, and data.\nThrough school and my professional experience, I’ve had the opportunity to work with real datasets and business problems across several industries, including EV charging and energy infrastructure, HVAC and building technology, sales, logistics and delivery operations, digital health and telehealth, short-term rentals, and the job market. These experiences have exposed me to different types of data and business questions, from analyzing sales and operational performance to exploring user behavior, customer needs, and market trends.\nI’ve found that I especially enjoy working through large or messy datasets, figuring out which patterns actually matter, and using what I find to answer practical business questions and support better decisions.\n\nEV Charging & Energy HVAC Manufacturing Sales Logistics & Delivery Digital Health & Telehealth Job Market Analytics"
   }
 ]
