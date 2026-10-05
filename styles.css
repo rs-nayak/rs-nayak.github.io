@@ -1,1 +1,346 @@
-/* css styles */
+/* ================================
+   RICHA NAYAK — PORTFOLIO
+   ================================ */
+
+
+/* ---------- GLOBAL ---------- */
+
+body {
+  background-color: #FAF8F5;
+  color: #2D3748;
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  font-size: 17px;
+  line-height: 1.75;
+}
+
+
+/* ---------- PAGE WIDTH ---------- */
+
+main {
+  max-width: 1050px;
+  margin: 0 auto;
+  padding-top: 35px;
+  padding-bottom: 80px;
+}
+
+
+/* ---------- HEADINGS ---------- */
+
+h1,
+h2,
+h3 {
+  color: #1F2937;
+  font-weight: 650;
+  letter-spacing: -0.02em;
+}
+
+h1 {
+  font-size: 2.7rem;
+  margin-bottom: 1.5rem;
+}
+
+h2 {
+  font-size: 1.75rem;
+  margin-top: 3rem;
+  margin-bottom: 1.2rem;
+}
+
+h3 {
+  font-size: 1.25rem;
+  margin-top: 2rem;
+}
+
+
+/* ---------- PARAGRAPHS ---------- */
+
+p {
+  margin-bottom: 1.3rem;
+}
+
+
+/* ---------- LINKS ---------- */
+
+a {
+  color: #A6533D;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+a:hover {
+  color: #713B2C;
+  text-decoration: underline;
+}
+
+
+/* ================================
+   NAVIGATION
+   ================================ */
+
+.navbar {
+  background-color: #FAF8F5 !important;
+  border-bottom: 1px solid #E7E2DC;
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
+.navbar-brand {
+  color: #1F2937 !important;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+}
+
+.navbar-nav .nav-link {
+  color: #4B5563 !important;
+  font-weight: 500;
+  margin-left: 12px;
+  margin-right: 12px;
+  transition: color 0.2s ease;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #A6533D !important;
+}
+
+.navbar-nav .nav-link.active {
+  color: #A6533D !important;
+}
+
+
+/* ================================
+   ABOUT PAGE / HEADSHOT
+   ================================ */
+
+.text-center img {
+  border-radius: 50%;
+  width: 230px;
+  height: 230px;
+  object-fit: cover;
+  margin-top: 10px;
+  margin-bottom: 30px;
+
+  box-shadow:
+    0 10px 30px rgba(31, 41, 55, 0.12);
+}
+
+
+/* ================================
+   PROJECT CARDS
+   ================================ */
+
+.grid {
+  gap: 24px;
+}
+
+.project-card {
+  display: block;
+  height: 100%;
+
+  background-color: #FFFFFF;
+  border: 1px solid #E7E2DC;
+  border-radius: 16px;
+
+  padding: 30px;
+
+  color: #2D3748 !important;
+  text-decoration: none !important;
+
+  box-shadow: 0 4px 14px rgba(31, 41, 55, 0.05);
+
+  transition:
+    transform 0.2s ease,
+    box-shadow 0.2s ease,
+    border-color 0.2s ease;
+}
+
+.project-card:hover {
+  transform: translateY(-6px);
+
+  border-color: #D5C7BE;
+
+  box-shadow: 0 14px 32px rgba(31, 41, 55, 0.11);
+
+  text-decoration: none !important;
+}
+
+
+/* Project title */
+
+.project-card h3 {
+  color: #1F2937;
+  font-size: 1.45rem;
+  line-height: 1.3;
+
+  margin-top: 0;
+  margin-bottom: 16px;
+}
+
+
+/* Regular card text */
+
+.project-card p {
+  color: #4B5563;
+  font-size: 0.96rem;
+  line-height: 1.65;
+}
+
+
+/* Tools */
+
+.project-tools {
+  display: block;
+
+  color: #6B7280;
+
+  font-size: 0.86rem;
+  font-weight: 600;
+
+  margin-top: 22px;
+  margin-bottom: 22px;
+}
+
+
+/* View Project */
+
+.project-link {
+  display: inline-block;
+
+  color: #A6533D;
+
+  font-size: 0.95rem;
+  font-weight: 650;
+
+  margin-top: 5px;
+
+  transition: transform 0.2s ease;
+}
+
+.project-card:hover .project-link {
+  transform: translateX(4px);
+}
+
+/* ================================
+   PROJECT PAGE IMAGES
+   ================================ */
+
+main img {
+  max-width: 100%;
+  height: auto;
+}
+
+main p img {
+  display: block;
+  margin: 30px auto 40px auto;
+
+  border-radius: 10px;
+
+  box-shadow:
+    0 5px 20px rgba(31, 41, 55, 0.08);
+}
+
+
+/* Don't make headshot rectangular */
+
+.text-center img {
+  border-radius: 50%;
+}
+
+
+/* ================================
+   BUTTONS
+   ================================ */
+
+.btn-primary {
+  background-color: #A6533D;
+  border-color: #A6533D;
+
+  border-radius: 8px;
+
+  padding: 11px 20px;
+
+  font-weight: 600;
+
+  transition:
+    background-color 0.2s ease,
+    transform 0.2s ease,
+    box-shadow 0.2s ease;
+}
+
+.btn-primary:hover {
+  background-color: #874330;
+  border-color: #874330;
+
+  transform: translateY(-2px);
+
+  box-shadow:
+    0 6px 15px rgba(166, 83, 61, 0.20);
+}
+
+
+/* ================================
+   LISTS
+   ================================ */
+
+li {
+  margin-bottom: 7px;
+}
+
+ul,
+ol {
+  padding-left: 1.4rem;
+}
+
+
+/* ================================
+   HORIZONTAL RULES
+   ================================ */
+
+hr {
+  border: none;
+  border-top: 1px solid #E7E2DC;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+
+/* ================================
+   STRONG / BOLD TEXT
+   ================================ */
+
+strong {
+  color: #1F2937;
+  font-weight: 650;
+}
+
+
+/* ================================
+   MOBILE
+   ================================ */
+
+@media (max-width: 768px) {
+
+  body {
+    font-size: 16px;
+  }
+
+  main {
+    padding-left: 18px;
+    padding-right: 18px;
+  }
+
+  h1 {
+    font-size: 2.2rem;
+  }
+
+  h2 {
+    font-size: 1.55rem;
+  }
+
+  .text-center img {
+    width: 190px;
+    height: 190px;
+  }
+
+  .g-col-md-4 {
+    margin-bottom: 18px;
+  }
+}
