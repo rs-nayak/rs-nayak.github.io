@@ -432,3 +432,1125 @@ blockquote {
     padding: 9px 14px;
   }
 }
+
+/* =========================================================
+   ABOUT PAGE — ENHANCED DESIGN
+   ========================================================= */
+
+
+/* ---------- HERO ---------- */
+
+.about-hero {
+  position: relative;
+  overflow: hidden;
+
+  text-align: center;
+
+  padding: 40px 25px 45px 25px;
+  margin-bottom: 45px;
+
+  border: 1px solid #E2E8F0;
+  border-radius: 24px;
+
+  background:
+    linear-gradient(
+      135deg,
+      #F8FAFD 0%,
+      #EEF4FB 50%,
+      #F8FAFD 100%
+    );
+
+  box-shadow:
+    0 8px 30px rgba(30, 58, 104, 0.06);
+}
+
+
+/* Keep actual content above blobs */
+
+.about-hero > *:not(.blob) {
+  position: relative;
+  z-index: 2;
+}
+
+
+/* =========================================================
+   FLOATING BACKGROUND BLOBS
+   ========================================================= */
+
+.blob {
+  position: absolute;
+
+  border-radius: 50%;
+
+  pointer-events: none;
+
+  opacity: 0.35;
+}
+
+
+.blob-one {
+  width: 250px;
+  height: 250px;
+
+  top: -110px;
+  left: -80px;
+
+  background: #AFC7E8;
+
+  filter: blur(8px);
+
+  animation: floatBlobOne 9s ease-in-out infinite;
+}
+
+
+.blob-two {
+  width: 300px;
+  height: 300px;
+
+  right: -120px;
+  bottom: -160px;
+
+  background: #D1DFF1;
+
+  filter: blur(10px);
+
+  animation: floatBlobTwo 11s ease-in-out infinite;
+}
+
+
+@keyframes floatBlobOne {
+
+  0%,
+  100% {
+    transform: translate(0, 0);
+  }
+
+  50% {
+    transform: translate(35px, 30px);
+  }
+}
+
+
+@keyframes floatBlobTwo {
+
+  0%,
+  100% {
+    transform: translate(0, 0);
+  }
+
+  50% {
+    transform: translate(-35px, -25px);
+  }
+}
+
+
+/* =========================================================
+   HEADSHOT
+   ========================================================= */
+
+.about-hero .text-center img {
+  width: 215px;
+  height: 215px;
+
+  object-fit: cover;
+
+  border-radius: 50%;
+
+  border: 6px solid #FFFFFF;
+
+  margin-bottom: 20px;
+
+  box-shadow:
+    0 14px 35px rgba(30, 58, 104, 0.15);
+
+  animation: headshotEntrance 0.8s ease-out both;
+
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease;
+}
+
+
+.about-hero .text-center img:hover {
+  transform:
+    translateY(-6px)
+    scale(1.025);
+
+  box-shadow:
+    0 20px 42px rgba(30, 58, 104, 0.20);
+}
+
+
+@keyframes headshotEntrance {
+
+  from {
+    opacity: 0;
+
+    transform:
+      translateY(15px)
+      scale(0.96);
+  }
+
+  to {
+    opacity: 1;
+
+    transform:
+      translateY(0)
+      scale(1);
+  }
+}
+
+
+/* =========================================================
+   HERO NAME
+   ========================================================= */
+
+.hero-intro h1 {
+  color: #172554;
+
+  font-size: 2.7rem;
+
+  margin-top: 10px;
+  margin-bottom: 8px;
+
+  animation: heroTitleEntrance 0.7s ease-out both;
+}
+
+
+@keyframes heroTitleEntrance {
+
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+
+/* =========================================================
+   TYPING TEXT
+   ========================================================= */
+
+.typing-container {
+  min-height: 38px;
+
+  margin-top: 5px;
+
+  color: #64748B;
+
+  font-size: 1.15rem;
+  font-weight: 500;
+}
+
+
+#typing-text {
+  color: #5D7FB5;
+
+  font-weight: 700;
+}
+
+
+.typing-cursor {
+  color: #6F91C7;
+
+  font-weight: 500;
+
+  animation: cursorBlink 0.8s infinite;
+}
+
+
+@keyframes cursorBlink {
+
+  0%,
+  50% {
+    opacity: 1;
+  }
+
+  51%,
+  100% {
+    opacity: 0;
+  }
+}
+
+
+/* =========================================================
+   SECTION HEADINGS
+   ========================================================= */
+
+main h2 {
+  position: relative;
+
+  padding-bottom: 9px;
+}
+
+
+main h2::after {
+  content: "";
+
+  display: block;
+
+  width: 42px;
+  height: 3px;
+
+  margin-top: 9px;
+
+  background-color: #8FAED8;
+
+  border-radius: 999px;
+
+  transition: width 0.3s ease;
+}
+
+
+main h2:hover::after {
+  width: 68px;
+}
+
+
+/* =========================================================
+   SKILL PILLS
+   ========================================================= */
+
+.skill-pills {
+  display: flex;
+  flex-wrap: wrap;
+
+  gap: 10px;
+
+  margin-top: 18px;
+  margin-bottom: 25px;
+}
+
+
+.skill-pills span {
+  display: inline-block;
+
+  background-color: #EEF3FA;
+
+  color: #365B91;
+
+  border: 1px solid #D6E1F0;
+  border-radius: 999px;
+
+  padding: 8px 14px;
+
+  font-size: 0.88rem;
+  font-weight: 600;
+
+  box-shadow:
+    0 2px 7px rgba(41, 76, 133, 0.05);
+
+  transition:
+    transform 0.2s ease,
+    background-color 0.2s ease,
+    box-shadow 0.2s ease;
+}
+
+
+.skill-pills span:hover {
+  transform: translateY(-3px);
+
+  background-color: #E0EAF6;
+
+  box-shadow:
+    0 7px 16px rgba(41, 76, 133, 0.12);
+}
+
+
+/* =========================================================
+   INDUSTRY TAGS
+   ========================================================= */
+
+.industry-tags {
+  display: flex;
+  flex-wrap: wrap;
+
+  gap: 9px;
+
+  margin-top: 22px;
+  margin-bottom: 30px;
+}
+
+
+.industry-tags span {
+  display: inline-block;
+
+  background-color: #F8FAFC;
+
+  color: #64748B;
+
+  border: 1px solid #E2E8F0;
+  border-radius: 7px;
+
+  padding: 7px 11px;
+
+  font-size: 0.82rem;
+  font-weight: 550;
+
+  transition:
+    border-color 0.2s ease,
+    color 0.2s ease,
+    transform 0.2s ease;
+}
+
+
+.industry-tags span:hover {
+  color: #365B91;
+
+  border-color: #B8C9E0;
+
+  transform: translateY(-2px);
+}
+
+
+/* =========================================================
+   PAGE ENTRANCE
+   ========================================================= */
+
+main {
+  animation: pageEntrance 0.6s ease-out both;
+}
+
+
+@keyframes pageEntrance {
+
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+
+/* =========================================================
+   MOBILE
+   ========================================================= */
+
+@media (max-width: 768px) {
+
+  .about-hero {
+    padding: 30px 15px 35px 15px;
+
+    border-radius: 18px;
+  }
+
+
+  .about-hero .text-center img {
+    width: 175px;
+    height: 175px;
+  }
+
+
+  .hero-intro h1 {
+    font-size: 2rem;
+  }
+
+
+  .typing-container {
+    min-height: 50px;
+
+    font-size: 1rem;
+  }
+
+
+  .skill-pills,
+  .industry-tags {
+    gap: 8px;
+  }
+
+
+  .skill-pills span {
+    padding: 7px 11px;
+
+    font-size: 0.82rem;
+  }
+
+
+  .industry-tags span {
+    font-size: 0.78rem;
+  }
+
+}
+
+
+/* =========================================================
+   ACCESSIBILITY — REDUCED MOTION
+   ========================================================= */
+
+@media (prefers-reduced-motion: reduce) {
+
+  .blob,
+  .about-hero .text-center img,
+  .hero-intro h1,
+  .typing-cursor,
+  main {
+    animation: none !important;
+  }
+
+}
+
+/* =========================================================
+   PROJECT PAGE — ANIMATIONS
+   ========================================================= */
+
+
+/* ---------- CARD ENTRANCE ---------- */
+
+.project-card {
+  opacity: 0;
+
+  animation: projectCardEntrance 0.65s ease-out forwards;
+
+  transition:
+    transform 0.25s ease,
+    box-shadow 0.25s ease,
+    border-color 0.25s ease,
+    background-color 0.25s ease;
+}
+
+
+/* Card 1 */
+
+.project-card:nth-child(1) {
+  animation-delay: 0.10s;
+}
+
+
+/* Card 2 */
+
+.project-card:nth-child(2) {
+  animation-delay: 0.25s;
+}
+
+
+/* Card 3 */
+
+.project-card:nth-child(3) {
+  animation-delay: 0.40s;
+}
+
+
+@keyframes projectCardEntrance {
+
+  from {
+    opacity: 0;
+    transform: translateY(25px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+}
+
+
+/* =========================================================
+   CARD HOVER
+   ========================================================= */
+
+.project-card:hover {
+  transform:
+    translateY(-7px)
+    scale(1.015);
+
+  border-color: #B8CBE5;
+
+  box-shadow:
+    0 18px 40px rgba(41, 76, 133, 0.12);
+}
+
+
+/* =========================================================
+   PROJECT TITLES
+   ========================================================= */
+
+.project-card h3 {
+  position: relative;
+
+  display: inline-block;
+
+  padding-bottom: 5px;
+}
+
+
+.project-card h3::after {
+  content: "";
+
+  position: absolute;
+
+  left: 0;
+  bottom: 0;
+
+  width: 0;
+  height: 2px;
+
+  background-color: #8FAED8;
+
+  border-radius: 10px;
+
+  transition: width 0.3s ease;
+}
+
+
+.project-card:hover h3::after {
+  width: 100%;
+}
+
+
+/* =========================================================
+   PROJECT TOOLS
+   ========================================================= */
+
+.project-tools {
+  margin-top: 20px;
+  margin-bottom: 18px;
+
+  color: #64748B;
+
+  font-size: 0.84rem;
+  font-weight: 600;
+
+  line-height: 1.6;
+}
+
+
+/* =========================================================
+   VIEW PROJECT BUTTON
+   ========================================================= */
+
+.project-link {
+  display: inline-block;
+
+  background-color: #EEF4FB;
+
+  color: #365B91 !important;
+
+  border: 1px solid #D7E3F2;
+  border-radius: 8px;
+
+  padding: 9px 15px;
+
+  font-size: 0.9rem;
+  font-weight: 650;
+
+  text-decoration: none !important;
+
+  transition:
+    transform 0.22s ease,
+    background-color 0.22s ease,
+    border-color 0.22s ease,
+    box-shadow 0.22s ease;
+}
+
+
+.project-link:hover {
+  transform: translateX(5px);
+
+  background-color: #DFEAF7;
+
+  border-color: #B8CBE5;
+
+  box-shadow:
+    0 5px 12px rgba(41, 76, 133, 0.10);
+
+  text-decoration: none !important;
+}
+
+
+/* =========================================================
+   RAG — IN PROGRESS STATUS
+   ========================================================= */
+
+.project-status {
+  display: inline-flex;
+
+  align-items: center;
+
+  gap: 7px;
+
+  margin-bottom: 12px;
+
+  padding: 5px 10px;
+
+  background-color: #F1F6FC;
+
+  border: 1px solid #D8E4F2;
+  border-radius: 999px;
+
+  color: #526F9C;
+
+  font-size: 0.78rem;
+  font-weight: 650;
+}
+
+
+.status-dot {
+  width: 7px;
+  height: 7px;
+
+  background-color: #6F91C7;
+
+  border-radius: 50%;
+
+  animation: statusPulse 2s ease-in-out infinite;
+}
+
+
+@keyframes statusPulse {
+
+  0%,
+  100% {
+    opacity: 1;
+
+    box-shadow:
+      0 0 0 0 rgba(111, 145, 199, 0.35);
+  }
+
+  50% {
+    opacity: 0.75;
+
+    box-shadow:
+      0 0 0 5px rgba(111, 145, 199, 0);
+  }
+
+}
+
+/* =========================================================
+   PROJECT CARD GLOW
+   ========================================================= */
+
+.project-card {
+  position: relative;
+  overflow: hidden;
+
+  border-top: 3px solid #AFC7E8;
+}
+
+
+/* Different accent shade for each project */
+
+.project-card:nth-child(2) {
+  border-top-color: #8FAED8;
+}
+
+.project-card:nth-child(3) {
+  border-top-color: #6F91C7;
+}
+
+
+/* Soft decorative glow */
+
+.project-card::before {
+  content: "";
+
+  position: absolute;
+
+  width: 190px;
+  height: 190px;
+
+  top: -95px;
+  right: -95px;
+
+  background: radial-gradient(
+    circle,
+    rgba(143, 174, 216, 0.24),
+    rgba(143, 174, 216, 0)
+  );
+
+  border-radius: 50%;
+
+  opacity: 0;
+
+  transform: scale(0.7);
+
+  transition:
+    opacity 0.35s ease,
+    transform 0.35s ease;
+
+  pointer-events: none;
+
+  z-index: 0;
+}
+
+
+/* Keep card content above glow */
+
+.project-card > * {
+  position: relative;
+  z-index: 1;
+}
+
+
+.project-card:hover::before {
+  opacity: 1;
+
+  transform: scale(1.45);
+}
+
+
+/* =========================================================
+   VIEW PROJECT EXTRA MOTION
+   ========================================================= */
+
+.project-link {
+  position: relative;
+}
+
+
+.project-link:hover {
+  letter-spacing: 0.2px;
+}
+
+
+/* =========================================================
+   PROJECT TECHNOLOGY PILLS
+   ========================================================= */
+
+.project-tech {
+  display: flex;
+  flex-wrap: wrap;
+
+  gap: 7px;
+
+  margin-top: 18px;
+  margin-bottom: 20px;
+}
+
+
+.project-tech span {
+  display: inline-block;
+
+  background-color: #F1F6FC;
+
+  color: #526F9C;
+
+  border: 1px solid #D8E4F2;
+  border-radius: 999px;
+
+  padding: 5px 10px;
+
+  font-size: 0.74rem;
+  font-weight: 600;
+
+  transition:
+    transform 0.2s ease,
+    background-color 0.2s ease,
+    border-color 0.2s ease,
+    box-shadow 0.2s ease;
+}
+
+
+.project-tech span:hover {
+  transform: translateY(-2px);
+
+  background-color: #E2ECF7;
+
+  border-color: #B8CBE5;
+
+  box-shadow:
+    0 4px 10px rgba(41, 76, 133, 0.08);
+}
+
+
+/* =========================================================
+   PROJECT PAGE — MOBILE
+   ========================================================= */
+
+@media (max-width: 768px) {
+
+  .project-card:hover {
+    transform: translateY(-4px);
+  }
+
+  .project-tech {
+    gap: 6px;
+  }
+
+  .project-tech span {
+    font-size: 0.72rem;
+    padding: 5px 8px;
+  }
+
+}
+
+
+/* =========================================================
+   REDUCED MOTION ACCESSIBILITY
+   KEEP THIS SECTION LAST
+   ========================================================= */
+
+@media (prefers-reduced-motion: reduce) {
+
+  .project-card,
+  .status-dot {
+    animation: none !important;
+  }
+
+  .project-card {
+    opacity: 1;
+  }
+
+  .project-card:hover {
+    transform: none;
+  }
+
+  .project-card::before {
+    transition: none;
+  }
+
+  .project-tech span {
+    transition: none;
+  }
+
+}
+
+/* =========================================================
+   INDIVIDUAL PROJECT PAGES — SCROLL ANIMATIONS
+   ========================================================= */
+
+
+/* ---------- SCROLL REVEAL ---------- */
+
+.scroll-reveal {
+  opacity: 0;
+
+  transform: translateY(22px);
+
+  transition:
+    opacity 0.65s ease,
+    transform 0.65s ease;
+}
+
+
+.scroll-reveal.revealed {
+  opacity: 1;
+
+  transform: translateY(0);
+}
+
+
+/* =========================================================
+   PROJECT PAGE IMAGES
+   ========================================================= */
+
+main img.scroll-reveal {
+  transform:
+    translateY(25px)
+    scale(0.985);
+
+  transition:
+    opacity 0.7s ease,
+    transform 0.7s ease,
+    box-shadow 0.3s ease;
+}
+
+
+main img.scroll-reveal.revealed {
+  transform:
+    translateY(0)
+    scale(1);
+}
+
+
+/* Charts react when hovered */
+
+main img.scroll-reveal.revealed:hover {
+  transform:
+    translateY(-5px)
+    scale(1.01);
+
+  box-shadow:
+    0 16px 35px rgba(41, 76, 133, 0.13);
+}
+
+
+/* =========================================================
+   PROJECT SECTION HEADINGS
+   ========================================================= */
+
+main h2.scroll-reveal {
+  transform: translateX(-18px);
+
+  transition:
+    opacity 0.6s ease,
+    transform 0.6s ease;
+}
+
+
+main h2.scroll-reveal.revealed {
+  transform: translateX(0);
+}
+
+
+/* Existing blue heading line animates in */
+
+main h2.scroll-reveal::after {
+  width: 0;
+
+  transition: width 0.6s ease 0.2s;
+}
+
+
+main h2.scroll-reveal.revealed::after {
+  width: 48px;
+}
+
+
+main h2.scroll-reveal.revealed:hover::after {
+  width: 70px;
+}
+
+
+/* =========================================================
+   PROJECT TECH PILLS
+   ========================================================= */
+
+.project-tech span {
+  transition:
+    transform 0.2s ease,
+    background-color 0.2s ease,
+    border-color 0.2s ease,
+    box-shadow 0.2s ease;
+}
+
+
+.project-tech span:hover {
+  transform: translateY(-3px);
+
+  background-color: #E2ECF7;
+
+  border-color: #B8CBE5;
+
+  box-shadow:
+    0 5px 12px rgba(41, 76, 133, 0.10);
+}
+
+
+/* =========================================================
+   BACK TO PROJECTS LINK
+   ========================================================= */
+
+main > p:first-of-type a {
+  display: inline-block;
+
+  color: #526F9C;
+
+  font-weight: 600;
+
+  text-decoration: none;
+
+  transition:
+    transform 0.2s ease,
+    color 0.2s ease;
+}
+
+
+main > p:first-of-type a:hover {
+  color: #294C85;
+
+  transform: translateX(-4px);
+}
+
+
+/* =========================================================
+   SIDE-BY-SIDE TEMPERATURE CHARTS
+   ========================================================= */
+
+.grid .g-col-md-6 {
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease;
+}
+
+
+.grid .g-col-md-6:hover {
+  transform: translateY(-4px);
+}
+
+
+/* =========================================================
+   REDUCED MOTION
+   ========================================================= */
+
+@media (prefers-reduced-motion: reduce) {
+
+  .scroll-reveal,
+  .scroll-reveal.revealed,
+  main img.scroll-reveal,
+  main img.scroll-reveal.revealed {
+
+    opacity: 1 !important;
+
+    transform: none !important;
+
+    transition: none !important;
+  }
+
+}
+
+/* =========================================================
+   BACK TO PROJECTS BUTTON
+   ========================================================= */
+
+.back-projects-btn {
+  display: inline-flex;
+  align-items: center;
+
+  background-color: #F1F6FC;
+  color: #526F9C !important;
+
+  border: 1px solid #D8E4F2;
+  border-radius: 10px;
+
+  padding: 9px 15px;
+  margin-bottom: 22px;
+
+  font-size: 0.88rem;
+  font-weight: 650;
+
+  text-decoration: none !important;
+
+  box-shadow:
+    0 2px 8px rgba(41, 76, 133, 0.06);
+
+  transition:
+    transform 0.22s ease,
+    background-color 0.22s ease,
+    border-color 0.22s ease,
+    box-shadow 0.22s ease,
+    color 0.22s ease;
+}
+
+
+/* Hover */
+
+.back-projects-btn:hover {
+  background-color: #E3EDF8;
+
+  border-color: #B8CBE5;
+
+  color: #294C85 !important;
+
+  transform: translateX(-4px);
+
+  box-shadow:
+    0 5px 14px rgba(41, 76, 133, 0.10);
+}
+
+
+/* Click */
+
+.back-projects-btn:active {
+  transform:
+    translateX(-2px)
+    scale(0.98);
+}

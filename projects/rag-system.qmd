@@ -2,15 +2,20 @@
 title: "Retrieval-Augmented Generation (RAG) System"
 ---
 
-[← Back to Projects](../projects.qmd)
-
-# Retrieval-Augmented Generation (RAG) System
+[← Back to Projects](../projects.qmd){.back-projects-btn}
 
 **AI Engineering Project | The Build Fellowship, Open Avenues Foundation**
 
 **Status:** In Progress
 
-**Tools:** Python, Large Language Models, Embeddings, Vector Search, FastAPI
+<div class="project-tech">
+<span>Python</span>
+<span>FastAPI</span>
+<span>LLMs</span>
+<span>Embeddings</span>
+<span>Vector Search</span>
+<span>RAG</span>
+</div>
 
 ## Project Overview
 
@@ -68,3 +73,37 @@ It has also helped me better understand the importance of the systems surroundin
 I will continue updating this project as I complete the RAG pipeline and evaluate its performance.
 
 [← Back to Projects](../projects.qmd)
+
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+
+  const elements = document.querySelectorAll(
+    "main h2, main h3, main p, main ul, main ol, main img"
+  );
+
+  elements.forEach(function (element) {
+    element.classList.add("scroll-reveal");
+  });
+
+  const observer = new IntersectionObserver(
+    function (entries) {
+      entries.forEach(function (entry) {
+
+        if (entry.isIntersecting) {
+          entry.target.classList.add("revealed");
+          observer.unobserve(entry.target);
+        }
+
+      });
+    },
+    {
+      threshold: 0.12
+    }
+  );
+
+  elements.forEach(function (element) {
+    observer.observe(element);
+  });
+
+});
+</script>

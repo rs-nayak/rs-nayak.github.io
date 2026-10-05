@@ -4,7 +4,7 @@
     "href": "about.html",
     "title": "About Me",
     "section": "",
-    "text": "I’m a graduate student studying analytics at Boston University with a background in cognitive science and computer science. My interests have always been a mix of understanding people, working with technology, and figuring out how information can be used to solve problems. That combination is what ultimately drew me toward analytics.\nThrough school and my professional experience, I’ve had the opportunity to work with real datasets across several industries, including EV charging and energy infrastructure, HVAC and building technology, sales, logistics and delivery operations, hospitality and short-term rentals, and the job market. These experiences have exposed me to different types of data and business problems, from analyzing sales and operational performance to exploring customer and market trends. I’ve found that I especially enjoy working through large or messy datasets, figuring out which patterns actually matter, and using what I find to answer practical business questions and support better decisions."
+    "text": "Exploring |"
   },
   {
     "objectID": "about.html#hi-im-richa",
@@ -18,21 +18,21 @@
     "href": "about.html#my-interests",
     "title": "About Me",
     "section": "My Interests",
-    "text": "My Interests\nWhat interests me most about analytics is the combination of technical and human problem-solving. Because of my background in cognitive science and computer science, I’m interested in both how technology works and how people interact with it. I’m especially curious about customer behavior, product strategy, emerging technologies, and how organizations can use data to make better decisions.\nOutside of purely technical analysis, I also enjoy thinking about how products and processes can be designed more effectively for the people using them. I like work that gives me the opportunity to ask questions, explore different perspectives, and understand the reasoning behind the numbers rather than only focusing on the numbers themselves."
+    "text": "My Interests\n\nData Analytics Business Intelligence Machine Learning AI & LLMs Data Visualization Operations Analytics Process Improvement\n\nI’m especially interested in the point where technical analysis meets real business decisions. I enjoy exploring why performance changes, identifying patterns that are not immediately obvious, and thinking about how data can be used to improve operations, strategy, and decision-making.\nMore recently, I’ve also been interested in how AI tools such as large language models and retrieval systems can be incorporated into practical applications. As I continue learning, I’m interested in building experience across both traditional analytics and newer AI-driven technologies."
   },
   {
     "objectID": "about.html#career-goals",
     "href": "about.html#career-goals",
     "title": "About Me",
     "section": "Career Goals",
-    "text": "Career Goals\nMy goal is to build a career in data analytics and business intelligence, where I can work on problems involving operational performance, customer and market trends, forecasting, and business strategy. I’m especially interested in roles where I can use tools like SQL, Python, Power BI, and Excel while also working closely with business teams to understand their needs and help guide decisions.\nAs I gain experience, I’d like to take on more ownership of analytics projects from start to finish—from defining the problem and analyzing the data to presenting recommendations to stakeholders. Long term, I hope to grow into a position where I can lead analytics initiatives and help shape broader business and technology strategy."
+    "text": "Career Goals\nAs I continue building my experience, I hope to pursue roles in data analytics, business intelligence, and related areas where I can work with real business problems from beginning to end.\nI’m particularly interested in opportunities where I can combine technical analysis with business context, whether that means investigating performance trends, building dashboards and analytical tools, developing data-driven recommendations, or working with emerging technologies."
   },
   {
     "objectID": "projects/airbnb-zurich.html",
     "href": "projects/airbnb-zurich.html",
     "title": "Airbnb Rentals in Zurich",
     "section": "",
-    "text": "← Back to Projects"
+    "text": "← Back to Projects\nMachine Learning & Analytics Project | Boston University"
   },
   {
     "objectID": "projects/airbnb-zurich.html#project-overview",
@@ -116,7 +116,7 @@
     "href": "projects/delivery-analysis.html",
     "title": "Delivery Performance Analysis",
     "section": "",
-    "text": "← Back to Projects"
+    "text": "← Back to Projects\nBusiness Intelligence Project | The Build Fellowship, Open Avenues Foundation"
   },
   {
     "objectID": "projects/delivery-analysis.html#project-overview",
@@ -207,7 +207,7 @@
     "href": "projects/rag-system.html",
     "title": "Retrieval-Augmented Generation (RAG) System",
     "section": "",
-    "text": "← Back to Projects"
+    "text": "← Back to Projects\nAI Engineering Project | The Build Fellowship, Open Avenues Foundation\nStatus: In Progress"
   },
   {
     "objectID": "projects/rag-system.html#project-overview",
@@ -263,14 +263,14 @@
     "href": "cv.html",
     "title": "CV",
     "section": "",
-    "text": "I’m a graduate student studying analytics at Boston University with a background in cognitive science and computer science. Through my academic and professional experience, I’ve worked with data across industries including HVAC and building technology, sales, EV charging and energy infrastructure, logistics and delivery operations, hospitality and short-term rentals, and the job market.\nMy experience has included data analysis, business intelligence, data visualization, machine learning, and more recently, AI engineering. I’ve worked with tools including Python, SQL, Power BI, Excel, and machine learning frameworks to analyze data, identify trends, and communicate findings that can support business decisions.\nI’m currently continuing to build my experience in analytics and AI through graduate coursework and hands-on projects, with a particular interest in roles that combine technical problem-solving with business strategy."
+    "text": "I’m a graduate student studying analytics at Boston University with a background in cognitive science and computer science. My experience spans data analytics, business intelligence, product strategy, UX research, machine learning, and AI, with a focus on using data and technology to solve practical business problems.\nIn my current role at Bosch Home Comfort, I work with sales, training, and technical support data using Excel and SQL, support recurring Power BI reporting, and build Microsoft Copilot Agents to improve access to product and technical information. Previously, at Immergo Labs, I worked on product strategy and UX research for a virtual reality telehealth platform, where I led stakeholder research and contributed to feature prioritization, user experience, B2B strategy, and subscription pricing.\nAlongside my professional experience, I’ve worked on projects involving market analytics, machine learning, and AI engineering. My work has included applying regression, KNN, decision trees, NLP, and clustering to Airbnb market data, as well as developing a retrieval-augmented generation system using Python, embeddings, vector search, language models, and FastAPI. I’m especially interested in opportunities where I can combine analytics, technology, and business strategy to turn complex information into useful insights and solutions."
   },
   {
     "objectID": "cv.html#professional-background",
     "href": "cv.html#professional-background",
     "title": "CV",
     "section": "",
-    "text": "I’m a graduate student studying analytics at Boston University with a background in cognitive science and computer science. Through my academic and professional experience, I’ve worked with data across industries including HVAC and building technology, sales, EV charging and energy infrastructure, logistics and delivery operations, hospitality and short-term rentals, and the job market.\nMy experience has included data analysis, business intelligence, data visualization, machine learning, and more recently, AI engineering. I’ve worked with tools including Python, SQL, Power BI, Excel, and machine learning frameworks to analyze data, identify trends, and communicate findings that can support business decisions.\nI’m currently continuing to build my experience in analytics and AI through graduate coursework and hands-on projects, with a particular interest in roles that combine technical problem-solving with business strategy."
+    "text": "I’m a graduate student studying analytics at Boston University with a background in cognitive science and computer science. My experience spans data analytics, business intelligence, product strategy, UX research, machine learning, and AI, with a focus on using data and technology to solve practical business problems.\nIn my current role at Bosch Home Comfort, I work with sales, training, and technical support data using Excel and SQL, support recurring Power BI reporting, and build Microsoft Copilot Agents to improve access to product and technical information. Previously, at Immergo Labs, I worked on product strategy and UX research for a virtual reality telehealth platform, where I led stakeholder research and contributed to feature prioritization, user experience, B2B strategy, and subscription pricing.\nAlongside my professional experience, I’ve worked on projects involving market analytics, machine learning, and AI engineering. My work has included applying regression, KNN, decision trees, NLP, and clustering to Airbnb market data, as well as developing a retrieval-augmented generation system using Python, embeddings, vector search, language models, and FastAPI. I’m especially interested in opportunities where I can combine analytics, technology, and business strategy to turn complex information into useful insights and solutions."
   },
   {
     "objectID": "cv.html#download-my-cv",
@@ -284,6 +284,13 @@
     "href": "projects.html",
     "title": "Projects",
     "section": "",
-    "text": "Here are a few projects that highlight my experience across business intelligence, data analytics, machine learning, and AI. Click on a project to learn more about the methods, analysis, and results.\n\n\nDelivery Performance Analysis\nBusiness Intelligence & Operations Analytics\nAnalyzed delivery operations from 2022–2025 to understand seasonal demand, truck capacity constraints, rescheduling patterns, and the relationship between temperature and operational performance.\nPython • Pandas • Data Visualization • Correlation Analysis\nView Project →\n\n\nAirbnb Rentals in Zurich\nMachine Learning & Market Analytics\nAnalyzed 2,534 Airbnb listings across Zurich using statistical modeling, machine learning, NLP, and clustering to explore pricing, host behavior, and distinct market segments.\nPython • Scikit-learn • DistilBERT • K-Means\nView Project →\n\n\nRetrieval-Augmented Generation (RAG)\nAI Engineering | In Progress\nCurrently developing a RAG system that combines document retrieval, vector search, and large language models to generate responses grounded in relevant source information.\nPython • LLMs • Embeddings • Vector Search • FastAPI\nView Project →"
+    "text": "Here are a few projects that highlight my experience across business intelligence, data analytics, machine learning, and AI. Click on a project to learn more about the methods, analysis, and results.\n\n\nDelivery Performance Analysis\nBusiness Intelligence & Operations Analytics\nAnalyzed delivery operations from 2022–2025 to understand seasonal demand, truck capacity constraints, rescheduling patterns, and the relationship between temperature and operational performance.\n\nPython • Pandas • NumPy • Matplotlib • Seaborn • Statistical Analysis • Correlation Analysis\n\nView Project →\n\n\nAirbnb Rentals in Zurich\nMachine Learning & Market Analytics\nAnalyzed 2,534 Airbnb listings across Zurich using statistical modeling, machine learning, NLP, and clustering to explore pricing, host behavior, and distinct market segments.\n\nPython • Pandas • NumPy • Scikit-learn • Statsmodels • DistilBERT • K-Means • NLP\n\nView Project →\n\n\nRetrieval-Augmented Generation (RAG)\n\n In Progress\n\nAI Engineering\nCurrently developing a RAG system that combines document retrieval, vector search, and large language models to generate responses grounded in relevant source information.\n\nPython • FastAPI • LLMs • Embeddings • Vector Search • RAG • NLP\n\nView Project →"
+  },
+  {
+    "objectID": "about.html#a-little-about-me",
+    "href": "about.html#a-little-about-me",
+    "title": "About Me",
+    "section": "A Little About Me",
+    "text": "A Little About Me\nI’m a graduate student studying analytics at Boston University with a background in cognitive science and computer science. I’ve always been interested in understanding how things work, especially when it comes to the connection between people, technology, and data.\nThrough school and my professional experience, I’ve had the opportunity to work with real datasets and business problems across several industries, including EV charging and energy infrastructure, HVAC and building technology, sales, logistics and delivery operations, digital health and telehealth, short-term rentals, and the job market. These experiences have exposed me to different types of data and business questions, from analyzing sales and operational performance to exploring user behavior, customer needs, and market trends.\nI’ve found that I especially enjoy working through large or messy datasets, figuring out which patterns actually matter, and using what I find to answer practical business questions and support better decisions.\n\nEV Charging & Energy HVAC Manufacturing Sales Logistics & Delivery Digital Health & Telehealth Job Market Analytics"
   }
 ]

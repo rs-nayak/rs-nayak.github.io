@@ -2,13 +2,18 @@
 title: "Airbnb Rentals in Zurich"
 ---
 
-[← Back to Projects](../projects.qmd)
-
-# Airbnb Rentals in Zurich
+[← Back to Projects](../projects.qmd){.back-projects-btn}
 
 **Machine Learning & Analytics Project | Boston University**
 
-**Tools:** Python, Pandas, Scikit-learn, Statsmodels, DistilBERT, K-Means Clustering
+<div class="project-tech">
+<span>Python</span>
+<span>Scikit-learn</span>
+<span>Statsmodels</span>
+<span>DistilBERT</span>
+<span>K-Means</span>
+<span>NLP</span>
+</div>
 
 ## Project Overview
 
@@ -159,3 +164,37 @@ The biggest takeaway from this project was that there was no single model that e
 Working with several approaches on the same dataset also showed me how important it is to choose a method based on the question being asked rather than simply applying the most complex model available.
 
 [← Back to Projects](../projects.qmd)
+
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+
+  const elements = document.querySelectorAll(
+    "main h2, main h3, main p, main ul, main ol, main img"
+  );
+
+  elements.forEach(function (element) {
+    element.classList.add("scroll-reveal");
+  });
+
+  const observer = new IntersectionObserver(
+    function (entries) {
+      entries.forEach(function (entry) {
+
+        if (entry.isIntersecting) {
+          entry.target.classList.add("revealed");
+          observer.unobserve(entry.target);
+        }
+
+      });
+    },
+    {
+      threshold: 0.12
+    }
+  );
+
+  elements.forEach(function (element) {
+    observer.observe(element);
+  });
+
+});
+</script>

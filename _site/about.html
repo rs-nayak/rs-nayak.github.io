@@ -146,23 +146,97 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="hi-im-richa" class="level2">
-<h2 class="anchored" data-anchor-id="hi-im-richa">Hi, I’m Richa!</h2>
+<div class="about-hero">
+<div class="blob blob-one">
+
+</div>
+<div class="blob blob-two">
+
+</div>
 <div class="text-center">
 <p><img src="images/headshot.jpg" class="img-fluid" width="250"></p>
 </div>
-<p>I’m a graduate student studying analytics at Boston University with a background in cognitive science and computer science. My interests have always been a mix of understanding people, working with technology, and figuring out how information can be used to solve problems. That combination is what ultimately drew me toward analytics.</p>
-<p>Through school and my professional experience, I’ve had the opportunity to work with real datasets across several industries, including EV charging and energy infrastructure, HVAC and building technology, sales, logistics and delivery operations, hospitality and short-term rentals, and the job market. These experiences have exposed me to different types of data and business problems, from analyzing sales and operational performance to exploring customer and market trends. I’ve found that I especially enjoy working through large or messy datasets, figuring out which patterns actually matter, and using what I find to answer practical business questions and support better decisions.</p>
+<section id="hi-im-richa" class="level1 hero-intro">
+<h1>Hi, I’m Richa!</h1>
+<div class="typing-container">
+<p><span class="typing-prefix">Exploring </span><span id="typing-text"></span><span class="typing-cursor">|</span></p>
+</div>
+</section>
+</div>
+<section id="a-little-about-me" class="level2">
+<h2 class="anchored" data-anchor-id="a-little-about-me">A Little About Me</h2>
+<p>I’m a graduate student studying analytics at Boston University with a background in cognitive science and computer science. I’ve always been interested in understanding how things work, especially when it comes to the connection between people, technology, and data.</p>
+<p>Through school and my professional experience, I’ve had the opportunity to work with real datasets and business problems across several industries, including EV charging and energy infrastructure, HVAC and building technology, sales, logistics and delivery operations, digital health and telehealth, short-term rentals, and the job market. These experiences have exposed me to different types of data and business questions, from analyzing sales and operational performance to exploring user behavior, customer needs, and market trends.</p>
+<p>I’ve found that I especially enjoy working through large or messy datasets, figuring out which patterns actually matter, and using what I find to answer practical business questions and support better decisions.</p>
+<div class="industry-tags">
+<p><span>EV Charging &amp; Energy</span> <span>HVAC Manufacturing</span> <span>Sales</span> <span>Logistics &amp; Delivery</span> <span>Digital Health &amp; Telehealth</span> <span>Job Market Analytics</span></p>
+</div>
 </section>
 <section id="my-interests" class="level2">
 <h2 class="anchored" data-anchor-id="my-interests">My Interests</h2>
-<p>What interests me most about analytics is the combination of technical and human problem-solving. Because of my background in cognitive science and computer science, I’m interested in both how technology works and how people interact with it. I’m especially curious about customer behavior, product strategy, emerging technologies, and how organizations can use data to make better decisions.</p>
-<p>Outside of purely technical analysis, I also enjoy thinking about how products and processes can be designed more effectively for the people using them. I like work that gives me the opportunity to ask questions, explore different perspectives, and understand the reasoning behind the numbers rather than only focusing on the numbers themselves.</p>
+<div class="skill-pills">
+<p><span>Data Analytics</span> <span>Business Intelligence</span> <span>Machine Learning</span> <span>AI &amp; LLMs</span> <span>Data Visualization</span> <span>Operations Analytics</span> <span>Process Improvement</span></p>
+</div>
+<p>I’m especially interested in the point where technical analysis meets real business decisions. I enjoy exploring why performance changes, identifying patterns that are not immediately obvious, and thinking about how data can be used to improve operations, strategy, and decision-making.</p>
+<p>More recently, I’ve also been interested in how AI tools such as large language models and retrieval systems can be incorporated into practical applications. As I continue learning, I’m interested in building experience across both traditional analytics and newer AI-driven technologies.</p>
 </section>
 <section id="career-goals" class="level2">
 <h2 class="anchored" data-anchor-id="career-goals">Career Goals</h2>
-<p>My goal is to build a career in data analytics and business intelligence, where I can work on problems involving operational performance, customer and market trends, forecasting, and business strategy. I’m especially interested in roles where I can use tools like SQL, Python, Power BI, and Excel while also working closely with business teams to understand their needs and help guide decisions.</p>
-<p>As I gain experience, I’d like to take on more ownership of analytics projects from start to finish—from defining the problem and analyzing the data to presenting recommendations to stakeholders. Long term, I hope to grow into a position where I can lead analytics initiatives and help shape broader business and technology strategy.</p>
+<p>As I continue building my experience, I hope to pursue roles in data analytics, business intelligence, and related areas where I can work with real business problems from beginning to end.</p>
+<p>I’m particularly interested in opportunities where I can combine technical analysis with business context, whether that means investigating performance trends, building dashboards and analytical tools, developing data-driven recommendations, or working with emerging technologies.</p>
+<script>
+const words = [
+  "Data Analytics",
+  "Business Intelligence",
+  "Machine Learning",
+  "AI & LLMs",
+  "Data Visualization"
+];
+
+let wordIndex = 0;
+let characterIndex = 0;
+let deleting = false;
+
+const typingElement = document.getElementById("typing-text");
+
+function typeText() {
+
+  const currentWord = words[wordIndex];
+
+  if (!deleting) {
+
+    typingElement.textContent =
+      currentWord.substring(0, characterIndex + 1);
+
+    characterIndex++;
+
+    if (characterIndex === currentWord.length) {
+      deleting = true;
+
+      setTimeout(typeText, 1400);
+      return;
+    }
+
+  } else {
+
+    typingElement.textContent =
+      currentWord.substring(0, characterIndex - 1);
+
+    characterIndex--;
+
+    if (characterIndex === 0) {
+      deleting = false;
+      wordIndex = (wordIndex + 1) % words.length;
+    }
+  }
+
+  setTimeout(typeText, deleting ? 45 : 80);
+}
+
+if (typingElement) {
+  typeText();
+}
+</script>
 
 
 </section>
@@ -241,7 +315,7 @@ ul.task-list li input[type="checkbox"] {
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp("https:\/\/rs-nayak\.github\.io\/");
+        var filterRegex = new RegExp('/' + window.location.host + '/');
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }

@@ -146,12 +146,12 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p><a href="../projects.html">← Back to Projects</a></p>
-<section id="retrieval-augmented-generation-rag-system" class="level1">
-<h1>Retrieval-Augmented Generation (RAG) System</h1>
+<p><a href="../projects.html" class="back-projects-btn">← Back to Projects</a></p>
 <p><strong>AI Engineering Project | The Build Fellowship, Open Avenues Foundation</strong></p>
 <p><strong>Status:</strong> In Progress</p>
-<p><strong>Tools:</strong> Python, Large Language Models, Embeddings, Vector Search, FastAPI</p>
+<div class="project-tech">
+<p><span>Python</span> <span>FastAPI</span> <span>LLMs</span> <span>Embeddings</span> <span>Vector Search</span> <span>RAG</span></p>
+</div>
 <section id="project-overview" class="level2">
 <h2 class="anchored" data-anchor-id="project-overview">Project Overview</h2>
 <p>I am currently working on a Retrieval-Augmented Generation (RAG) project focused on building a system that can answer questions using information retrieved from a collection of documents.</p>
@@ -199,9 +199,41 @@ ul.task-list li input[type="checkbox"] {
 <p><strong>Currently in development.</strong></p>
 <p>I will continue updating this project as I complete the RAG pipeline and evaluate its performance.</p>
 <p><a href="../projects.html">← Back to Projects</a></p>
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+
+  const elements = document.querySelectorAll(
+    "main h2, main h3, main p, main ul, main ol, main img"
+  );
+
+  elements.forEach(function (element) {
+    element.classList.add("scroll-reveal");
+  });
+
+  const observer = new IntersectionObserver(
+    function (entries) {
+      entries.forEach(function (entry) {
+
+        if (entry.isIntersecting) {
+          entry.target.classList.add("revealed");
+          observer.unobserve(entry.target);
+        }
+
+      });
+    },
+    {
+      threshold: 0.12
+    }
+  );
+
+  elements.forEach(function (element) {
+    observer.observe(element);
+  });
+
+});
+</script>
 
 
-</section>
 </section>
 
 </main> <!-- /main -->
@@ -278,7 +310,7 @@ ul.task-list li input[type="checkbox"] {
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp("https:\/\/rs-nayak\.github\.io\/");
+        var filterRegex = new RegExp('/' + window.location.host + '/');
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }

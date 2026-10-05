@@ -148,9 +148,9 @@ ul.task-list li input[type="checkbox"] {
 
 <section id="professional-background" class="level2">
 <h2 class="anchored" data-anchor-id="professional-background">Professional Background</h2>
-<p>I’m a graduate student studying analytics at Boston University with a background in cognitive science and computer science. Through my academic and professional experience, I’ve worked with data across industries including HVAC and building technology, sales, EV charging and energy infrastructure, logistics and delivery operations, hospitality and short-term rentals, and the job market.</p>
-<p>My experience has included data analysis, business intelligence, data visualization, machine learning, and more recently, AI engineering. I’ve worked with tools including Python, SQL, Power BI, Excel, and machine learning frameworks to analyze data, identify trends, and communicate findings that can support business decisions.</p>
-<p>I’m currently continuing to build my experience in analytics and AI through graduate coursework and hands-on projects, with a particular interest in roles that combine technical problem-solving with business strategy.</p>
+<p>I’m a graduate student studying analytics at Boston University with a background in cognitive science and computer science. My experience spans data analytics, business intelligence, product strategy, UX research, machine learning, and AI, with a focus on using data and technology to solve practical business problems.</p>
+<p>In my current role at Bosch Home Comfort, I work with sales, training, and technical support data using Excel and SQL, support recurring Power BI reporting, and build Microsoft Copilot Agents to improve access to product and technical information. Previously, at Immergo Labs, I worked on product strategy and UX research for a virtual reality telehealth platform, where I led stakeholder research and contributed to feature prioritization, user experience, B2B strategy, and subscription pricing.</p>
+<p>Alongside my professional experience, I’ve worked on projects involving market analytics, machine learning, and AI engineering. My work has included applying regression, KNN, decision trees, NLP, and clustering to Airbnb market data, as well as developing a retrieval-augmented generation system using Python, embeddings, vector search, language models, and FastAPI. I’m especially interested in opportunities where I can combine analytics, technology, and business strategy to turn complex information into useful insights and solutions.</p>
 </section>
 <section id="download-my-cv" class="level2">
 <h2 class="anchored" data-anchor-id="download-my-cv">Download My CV</h2>
@@ -234,7 +234,7 @@ ul.task-list li input[type="checkbox"] {
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp("https:\/\/rs-nayak\.github\.io\/");
+        var filterRegex = new RegExp('/' + window.location.host + '/');
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }

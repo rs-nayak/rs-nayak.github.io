@@ -14,9 +14,11 @@ Here are a few projects that highlight my experience across business intelligenc
 
 Analyzed delivery operations from 2022–2025 to understand seasonal demand, truck capacity constraints, rescheduling patterns, and the relationship between temperature and operational performance.
 
-**Python • Pandas • Data Visualization • Correlation Analysis**
+<div class="project-tools">
+Python • Pandas • NumPy • Matplotlib • Seaborn • Statistical Analysis • Correlation Analysis
+</div>
 
-[View Project →](projects/delivery-analysis.qmd)
+[View Project →](projects/delivery-analysis.qmd){.project-link}
 
 :::
 
@@ -28,9 +30,11 @@ Analyzed delivery operations from 2022–2025 to understand seasonal demand, tru
 
 Analyzed 2,534 Airbnb listings across Zurich using statistical modeling, machine learning, NLP, and clustering to explore pricing, host behavior, and distinct market segments.
 
-**Python • Scikit-learn • DistilBERT • K-Means**
+<div class="project-tools">
+Python • Pandas • NumPy • Scikit-learn • Statsmodels • DistilBERT • K-Means • NLP
+</div>
 
-[View Project →](projects/airbnb-zurich.qmd)
+[View Project →](projects/airbnb-zurich.qmd){.project-link}
 
 :::
 
@@ -38,13 +42,20 @@ Analyzed 2,534 Airbnb listings across Zurich using statistical modeling, machine
 
 ### Retrieval-Augmented Generation (RAG)
 
-**AI Engineering | In Progress**
+<div class="project-status">
+<span class="status-dot"></span>
+In Progress
+</div>
+
+**AI Engineering**
 
 Currently developing a RAG system that combines document retrieval, vector search, and large language models to generate responses grounded in relevant source information.
 
-**Python • LLMs • Embeddings • Vector Search • FastAPI**
+<div class="project-tools">
+Python • FastAPI • LLMs • Embeddings • Vector Search • RAG • NLP
+</div>
 
-[View Project →](projects/rag-system.qmd)
+[View Project →](projects/rag-system.qmd){.project-link}
 
 :::
 

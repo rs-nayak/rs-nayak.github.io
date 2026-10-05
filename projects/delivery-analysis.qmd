@@ -2,13 +2,17 @@
 title: "Delivery Performance Analysis"
 ---
 
-[← Back to Projects](../projects.qmd)
-
-# Delivery Performance Analysis
+[← Back to Projects](../projects.qmd){.back-projects-btn}
 
 **Business Intelligence Project | The Build Fellowship, Open Avenues Foundation**
 
-**Tools:** Python, Pandas, Data Visualization, Correlation Analysis
+<div class="project-tech">
+<span>Python</span>
+<span>Pandas</span>
+<span>NumPy</span>
+<span>Matplotlib</span>
+<span>Statistical Analysis</span>
+</div>
 
 ## Project Overview
 
@@ -128,3 +132,35 @@ This project helped me see how an initial question about weather developed into 
 The analysis ultimately shifted the focus from simply asking whether weather affects deliveries to identifying **when capacity shortages occur and how historical demand patterns can be used to plan resources more effectively**.
 
 [← Back to Projects](../projects.qmd)
+
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+
+  const elements = document.querySelectorAll(
+    "main h2, main h3, main p, main ul, main ol, main img"
+  );
+
+  elements.forEach(function (element) {
+    element.classList.add("scroll-reveal");
+  });
+
+  const observer = new IntersectionObserver(
+    function (entries) {
+      entries.forEach(function (entry) {
+        if (entry.isIntersecting) {
+          entry.target.classList.add("revealed");
+          observer.unobserve(entry.target);
+        }
+      });
+    },
+    {
+      threshold: 0.12
+    }
+  );
+
+  elements.forEach(function (element) {
+    observer.observe(element);
+  });
+
+});
+</script>
