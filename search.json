@@ -1,5 +1,19 @@
 [
   {
+    "objectID": "contact.html",
+    "href": "contact.html",
+    "title": "Contact",
+    "section": "",
+    "text": "Thanks for visiting my portfolio! I’m always happy to connect with people in analytics, technology, and related fields.\nWhether you’d like to discuss an opportunity, a project, or just connect, feel free to reach out.\n\n\nEmail\nYOUR-EMAIL\nGitHub\nView my GitHub"
+  },
+  {
+    "objectID": "contact.html#contact-me",
+    "href": "contact.html#contact-me",
+    "title": "Contact",
+    "section": "",
+    "text": "Email\nYOUR-EMAIL\nGitHub\nView my GitHub"
+  },
+  {
     "objectID": "projects/delivery-analysis.html",
     "href": "projects/delivery-analysis.html",
     "title": "Delivery Performance Analysis",
@@ -81,14 +95,14 @@
     "href": "about.html",
     "title": "About Me",
     "section": "",
-    "text": "I’m a graduate student studying analytics at Boston University with a background in cognitive science and computer science. My interests have always been a mix of understanding people, working with technology, and figuring out how information can be used to solve problems. That combination is what ultimately drew me toward analytics.\nThrough school and my professional experience, I’ve had the opportunity to work with real datasets across several industries, including EV charging and energy infrastructure, logistics and delivery operations, hospitality and short-term rentals, and the job market. I’ve found that I especially enjoy taking a large or messy dataset, figuring out what is actually important, and turning the results into something that can help answer a business question or support a decision."
+    "text": "I’m a graduate student studying analytics at Boston University with a background in cognitive science and computer science. My interests have always been a mix of understanding people, working with technology, and figuring out how information can be used to solve problems. That combination is what ultimately drew me toward analytics.\nThrough school and my professional experience, I’ve had the opportunity to work with real datasets across several industries, including EV charging and energy infrastructure, HVAC and building technology, sales, logistics and delivery operations, hospitality and short-term rentals, and the job market. These experiences have exposed me to different types of data and business problems, from analyzing sales and operational performance to exploring customer and market trends. I’ve found that I especially enjoy working through large or messy datasets, figuring out which patterns actually matter, and using what I find to answer practical business questions and support better decisions."
   },
   {
     "objectID": "about.html#hi-im-richa",
     "href": "about.html#hi-im-richa",
     "title": "About Me",
     "section": "",
-    "text": "I’m a graduate student studying analytics at Boston University with a background in cognitive science and computer science. My interests have always been a mix of understanding people, working with technology, and figuring out how information can be used to solve problems. That combination is what ultimately drew me toward analytics.\nThrough school and my professional experience, I’ve had the opportunity to work with real datasets across several industries, including EV charging and energy infrastructure, logistics and delivery operations, hospitality and short-term rentals, and the job market. I’ve found that I especially enjoy taking a large or messy dataset, figuring out what is actually important, and turning the results into something that can help answer a business question or support a decision."
+    "text": "I’m a graduate student studying analytics at Boston University with a background in cognitive science and computer science. My interests have always been a mix of understanding people, working with technology, and figuring out how information can be used to solve problems. That combination is what ultimately drew me toward analytics.\nThrough school and my professional experience, I’ve had the opportunity to work with real datasets across several industries, including EV charging and energy infrastructure, HVAC and building technology, sales, logistics and delivery operations, hospitality and short-term rentals, and the job market. These experiences have exposed me to different types of data and business problems, from analyzing sales and operational performance to exploring customer and market trends. I’ve found that I especially enjoy working through large or messy datasets, figuring out which patterns actually matter, and using what I find to answer practical business questions and support better decisions."
   },
   {
     "objectID": "about.html#my-interests",
@@ -103,6 +117,27 @@
     "title": "About Me",
     "section": "Career Goals",
     "text": "Career Goals\nMy goal is to build a career in data analytics and business intelligence, where I can work on problems involving operational performance, customer and market trends, forecasting, and business strategy. I’m especially interested in roles where I can use tools like SQL, Python, Power BI, and Excel while also working closely with business teams to understand their needs and help guide decisions.\nAs I gain experience, I’d like to take on more ownership of analytics projects from start to finish—from defining the problem and analyzing the data to presenting recommendations to stakeholders. Long term, I hope to grow into a position where I can lead analytics initiatives and help shape broader business and technology strategy."
+  },
+  {
+    "objectID": "cv.html",
+    "href": "cv.html",
+    "title": "CV",
+    "section": "",
+    "text": "I’m a graduate student studying analytics at Boston University with a background in cognitive science and computer science. Through my academic and professional experience, I’ve worked with data across industries including HVAC and building technology, sales, EV charging and energy infrastructure, logistics and delivery operations, hospitality and short-term rentals, and the job market.\nMy experience has included data analysis, business intelligence, data visualization, machine learning, and more recently, AI engineering. I’ve worked with tools including Python, SQL, Power BI, Excel, and machine learning frameworks to analyze data, identify trends, and communicate findings that can support business decisions.\nI’m currently continuing to build my experience in analytics and AI through graduate coursework and hands-on projects, with a particular interest in roles that combine technical problem-solving with business strategy.\n\n\n\nA PDF version of my CV is available below.\nDownload CV (PDF) ↓"
+  },
+  {
+    "objectID": "cv.html#professional-background",
+    "href": "cv.html#professional-background",
+    "title": "CV",
+    "section": "",
+    "text": "I’m a graduate student studying analytics at Boston University with a background in cognitive science and computer science. Through my academic and professional experience, I’ve worked with data across industries including HVAC and building technology, sales, EV charging and energy infrastructure, logistics and delivery operations, hospitality and short-term rentals, and the job market.\nMy experience has included data analysis, business intelligence, data visualization, machine learning, and more recently, AI engineering. I’ve worked with tools including Python, SQL, Power BI, Excel, and machine learning frameworks to analyze data, identify trends, and communicate findings that can support business decisions.\nI’m currently continuing to build my experience in analytics and AI through graduate coursework and hands-on projects, with a particular interest in roles that combine technical problem-solving with business strategy."
+  },
+  {
+    "objectID": "cv.html#download-my-cv",
+    "href": "cv.html#download-my-cv",
+    "title": "CV",
+    "section": "",
+    "text": "A PDF version of my CV is available below.\nDownload CV (PDF) ↓"
   },
   {
     "objectID": "projects.html",
