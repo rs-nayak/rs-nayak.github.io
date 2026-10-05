@@ -1,0 +1,70 @@
+---
+title: "Retrieval-Augmented Generation (RAG) System"
+---
+
+[← Back to Projects](../projects.qmd)
+
+# Retrieval-Augmented Generation (RAG) System
+
+**AI Engineering Project | The Build Fellowship, Open Avenues Foundation**
+
+**Status:** In Progress
+
+**Tools:** Python, Large Language Models, Embeddings, Vector Search, FastAPI
+
+## Project Overview
+
+I am currently working on a Retrieval-Augmented Generation (RAG) project focused on building a system that can answer questions using information retrieved from a collection of documents.
+
+The goal of the project is to explore how large language models can be combined with external information sources so that generated responses are grounded in relevant document content rather than relying only on the model's existing knowledge.
+
+## What is RAG?
+
+Retrieval-Augmented Generation combines information retrieval with a large language model.
+
+Instead of sending a question directly to the language model, the system first searches a collection of documents for information that is relevant to the user's question. The retrieved context is then provided to the language model along with the question so it can generate a more informed and grounded response.
+
+At a high level, the process follows:
+
+**Documents → Processing & Chunking → Embeddings → Vector Search → Relevant Context → LLM → Response**
+
+## What I'm Working On
+
+My work on the project involves developing and connecting the different components of the RAG pipeline, including:
+
+- Preparing and processing source documents for retrieval.
+- Breaking larger documents into smaller chunks that can be searched more effectively.
+- Creating embeddings that represent the meaning of document content numerically.
+- Using vector similarity search to identify document chunks that are most relevant to a user's question.
+- Providing retrieved context to a large language model before generating a response.
+- Developing the backend workflow needed to connect retrieval and generation.
+- Using FastAPI to support communication between different components of the system.
+- Testing different approaches to improve the relevance and quality of retrieved information.
+
+## Why Retrieval Matters
+
+One of the main challenges in a RAG system is making sure the model receives the right information before it generates an answer.
+
+If the retrieval step returns irrelevant or incomplete context, even a strong language model may produce a weak response. Because of this, I am learning that building a RAG system involves more than simply connecting a vector database to an LLM. Decisions around document preparation, chunking, embeddings, retrieval, and prompting can all affect the final result.
+
+## Current Focus
+
+Since this project is still in progress, I am continuing to develop and test the different parts of the pipeline.
+
+My current focus is on understanding how the retrieval and generation components work together, improving the quality of retrieved context, and building a reliable workflow for moving from a user's question to a grounded response.
+
+As the project progresses, I plan to continue evaluating the system and documenting the final architecture, implementation decisions, and results.
+
+## What I'm Learning
+
+This project is giving me hands-on experience with a different area of data and AI than my previous analytics projects. In addition to working with Python, I am learning how unstructured documents can be transformed into searchable representations and how retrieval systems can be integrated with large language models.
+
+It has also helped me better understand the importance of the systems surrounding an AI model. The quality of an AI application depends not only on the model itself, but also on how information is processed, retrieved, passed to the model, and returned to the user.
+
+## Project Status
+
+**Currently in development.**
+
+I will continue updating this project as I complete the RAG pipeline and evaluate its performance.
+
+[← Back to Projects](../projects.qmd)

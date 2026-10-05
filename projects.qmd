@@ -1,0 +1,53 @@
+---
+title: "Projects"
+---
+
+# Projects
+
+Here are a few projects that highlight my experience across business intelligence, data analytics, machine learning, and AI. Click on a project to learn more about the methods, analysis, and results.
+
+::: {.grid}
+
+::: {.g-col-12 .g-col-md-4}
+
+## Delivery Performance Analysis
+
+**Business Intelligence & Operations Analytics**
+
+Analyzed delivery operations from 2022–2025 to understand seasonal demand, truck capacity constraints, rescheduling patterns, and the relationship between temperature and operational performance.
+
+**Python • Pandas • Data Visualization • Correlation Analysis**
+
+[**View Project →**](projects/delivery-analysis.qmd)
+
+:::
+
+::: {.g-col-12 .g-col-md-4}
+
+## Airbnb Rentals in Zurich
+
+**Machine Learning & Market Analytics**
+
+Analyzed 2,534 Airbnb listings across Zurich using statistical modeling, machine learning, NLP, and clustering to explore pricing, host behavior, and distinct market segments.
+
+**Python • Scikit-learn • DistilBERT • K-Means**
+
+[**View Project →**](projects/airbnb-zurich.qmd)
+
+:::
+
+::: {.g-col-12 .g-col-md-4}
+
+## Retrieval-Augmented Generation (RAG)
+
+**AI Engineering | In Progress**
+
+Currently developing a RAG system that combines document retrieval, vector search, and large language models to generate responses grounded in relevant source information.
+
+**Python • LLMs • Embeddings • Vector Search • FastAPI**
+
+[**View Project →**](projects/rag-system.qmd)
+
+:::
+
+:::
