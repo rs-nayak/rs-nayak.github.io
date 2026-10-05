@@ -1,0 +1,19 @@
+---
+title: "CV"
+---
+
+# CV
+
+## Professional Background
+
+I’m a graduate student studying analytics at Boston University with a background in cognitive science and computer science. Through my academic and professional experience, I’ve worked with data across industries including HVAC and building technology, sales, EV charging and energy infrastructure, logistics and delivery operations, hospitality and short-term rentals, and the job market.
+
+My experience has included data analysis, business intelligence, data visualization, machine learning, and more recently, AI engineering. I’ve worked with tools including Python, SQL, Power BI, Excel, and machine learning frameworks to analyze data, identify trends, and communicate findings that can support business decisions.
+
+I’m currently continuing to build my experience in analytics and AI through graduate coursework and hands-on projects, with a particular interest in roles that combine technical problem-solving with business strategy.
+
+## Download My CV
+
+A PDF version of my CV is available below.
+
+[**Download CV (PDF) ↓**](files/Richa_Nayak_CV.pdf){.btn .btn-primary download="Richa_Nayak_CV.pdf"}

@@ -7,5 +7,23 @@
   },
   "README.md": {
     "README.html": "ecc7797b"
+  },
+  "contact.qmd": {
+    "contact.html": "3c47ff58"
+  },
+  "projects/delivery-analysis.qmd": {
+    "delivery-analysis.html": "59455b1f"
+  },
+  "projects/rag-system.qmd": {
+    "rag-system.html": "151cc653"
+  },
+  "projects/airbnb-zurich.qmd": {
+    "airbnb-zurich.html": "b8f2c3aa"
+  },
+  "cv.qmd": {
+    "cv.html": "92ecf3ab"
+  },
+  "projects.qmd": {
+    "projects.html": "f689a0fe"
   }
 }

@@ -1,0 +1,17 @@
+---
+title: "Contact"
+---
+
+# Let's Connect
+
+Thanks for visiting my portfolio! I'm always happy to connect with people in analytics, technology, and related fields.
+
+Whether you'd like to discuss an opportunity, a project, or just connect, feel free to reach out.
+
+## Contact Me
+
+**Email**  
+[YOUR-EMAIL](mailto:rsnayak@bu.edu)
+
+**GitHub**  
+[View my GitHub](https://github.com/rs-nayak)
