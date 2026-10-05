@@ -1,5 +1,110 @@
 [
   {
+    "objectID": "projects/delivery-analysis.html",
+    "href": "projects/delivery-analysis.html",
+    "title": "Delivery Performance Analysis",
+    "section": "",
+    "text": "← Back to Projects"
+  },
+  {
+    "objectID": "projects/delivery-analysis.html#project-overview",
+    "href": "projects/delivery-analysis.html#project-overview",
+    "title": "Delivery Performance Analysis",
+    "section": "Project Overview",
+    "text": "Project Overview\nThis project focused on understanding what drives changes in delivery performance and truck capacity. I analyzed delivery operations from 2022–2025 and combined the data with historical temperature patterns from Dallas, Texas to explore whether changes in temperature were related to delivery demand, truck planning, and rescheduling.\nThe main goal was to separate the effects of seasonal demand from temperature and identify where operational planning could be improved."
+  },
+  {
+    "objectID": "projects/delivery-analysis.html#business-questions",
+    "href": "projects/delivery-analysis.html#business-questions",
+    "title": "Delivery Performance Analysis",
+    "section": "Business Questions",
+    "text": "Business Questions\nI focused the analysis around three main questions:\n\nWhen does delivery demand peak throughout the year?\nHow closely does actual truck capacity match expected capacity?\nDoes temperature have a meaningful relationship with delivery demand, truck capacity, or rescheduling?"
+  },
+  {
+    "objectID": "projects/delivery-analysis.html#delivery-demand",
+    "href": "projects/delivery-analysis.html#delivery-demand",
+    "title": "Delivery Performance Analysis",
+    "section": "Delivery Demand",
+    "text": "Delivery Demand\n\nDelivery volume shows a clear seasonal pattern. Average volume increased from approximately 12.8 million pounds in January to 17.3 million pounds in April, making March and April the busiest period of the year.\nAfter the spring peak, volume generally declined, although there was another increase in July. This pattern suggested that demand was not evenly distributed throughout the year and that capacity planning should account for predictable seasonal changes."
+  },
+  {
+    "objectID": "projects/delivery-analysis.html#truck-capacity",
+    "href": "projects/delivery-analysis.html#truck-capacity",
+    "title": "Delivery Performance Analysis",
+    "section": "Truck Capacity",
+    "text": "Truck Capacity\n\nComparing expected and actual trucks revealed a consistent capacity gap. Actual truck availability remained below expected truck requirements throughout the year.\nThe largest shortage occurred around June, when expected trucks reached approximately 50.7 while actual trucks were only around 40.2. The consistently negative truck variance showed that the operation was regularly working with fewer trucks than expected.\nThis was important because it showed that the challenge was not simply changing delivery demand. There was also a persistent difference between planned capacity and the resources actually available."
+  },
+  {
+    "objectID": "projects/delivery-analysis.html#relationship-between-operational-variables",
+    "href": "projects/delivery-analysis.html#relationship-between-operational-variables",
+    "title": "Delivery Performance Analysis",
+    "section": "Relationship Between Operational Variables",
+    "text": "Relationship Between Operational Variables\n\nI used a correlation matrix to better understand how the operational variables moved together.\nSome of the strongest relationships included:\n\nDelivery pounds and delivery quantity: 0.93\nExpected and actual trucks: 0.61\nTemperature and expected trucks: 0.79\nTemperature and actual trucks: 0.61\nRescheduled quantity and reschedule rate: 0.79\n\nOne result that stood out was the difference between temperature’s relationship with expected trucks and its relationship with actual delivery activity. Temperature had a relatively strong relationship with expected truck requirements, but weaker relationships with total delivery pounds (0.39) and delivery quantity (0.49).\nThis suggested that temperature and seasonality may be more closely connected to planning decisions than to actual delivery demand itself."
+  },
+  {
+    "objectID": "projects/delivery-analysis.html#temperature-and-truck-planning",
+    "href": "projects/delivery-analysis.html#temperature-and-truck-planning",
+    "title": "Delivery Performance Analysis",
+    "section": "Temperature and Truck Planning",
+    "text": "Temperature and Truck Planning\nThe temperature relationship became clearer when I looked at expected and actual trucks separately.\n\n\nExpected Trucks\n\nTemperature had a relatively strong positive relationship with expected truck requirements (r = 0.79). As average temperatures increased, the number of trucks expected by the operation generally increased as well.\n\n\nActual Trucks\n\nThe relationship between temperature and actual trucks was weaker (r = 0.61). Actual truck availability varied more and did not increase as consistently with temperature.\n\n\nLooking at these results together helped distinguish planning from actual capacity. Expected truck requirements responded more closely to seasonal temperature patterns, while the number of trucks actually available did not follow those patterns as strongly."
+  },
+  {
+    "objectID": "projects/delivery-analysis.html#key-findings",
+    "href": "projects/delivery-analysis.html#key-findings",
+    "title": "Delivery Performance Analysis",
+    "section": "Key Findings",
+    "text": "Key Findings\nOverall, the analysis showed that seasonal demand and capacity constraints were more important drivers of delivery performance than temperature alone.\n\nDelivery demand increased significantly during the spring and peaked around March and April.\nActual truck capacity remained below expected capacity throughout the year.\nTruck shortages continued during periods of high demand and were particularly large around June.\nHigher demand was associated with increased rescheduling.\nTemperature had relatively weak relationships with actual delivery activity.\nTemperature had a stronger relationship with expected truck requirements, suggesting a greater connection to operational planning than to delivery performance itself."
+  },
+  {
+    "objectID": "projects/delivery-analysis.html#business-recommendations",
+    "href": "projects/delivery-analysis.html#business-recommendations",
+    "title": "Delivery Performance Analysis",
+    "section": "Business Recommendations",
+    "text": "Business Recommendations\nBased on these findings, I identified three areas where operational planning could be improved:\n\nImprove truck allocation during peak spring demand. March and April consistently showed some of the highest delivery activity, so additional capacity should be planned before the seasonal increase occurs.\nIncrease capacity planning during periods with larger truck shortages. The gap between expected and actual trucks was especially noticeable around June, suggesting that expected demand was not always matched by available resources.\nPlan around demand patterns rather than temperature alone. Temperature provides useful seasonal context, but the analysis showed that actual delivery demand and capacity constraints are more important indicators for resource allocation."
+  },
+  {
+    "objectID": "projects/delivery-analysis.html#limitations",
+    "href": "projects/delivery-analysis.html#limitations",
+    "title": "Delivery Performance Analysis",
+    "section": "Limitations",
+    "text": "Limitations\nThere were several limitations to consider when interpreting the results.\nThe temperature data represented long-term historical averages from 1948–2022, while the operational delivery data covered 2022–2025. This required the analysis to assume that more recent temperature patterns were reasonably consistent with historical seasonal averages.\nAggregating the data by month also resulted in only 12 monthly observations, which limits the depth of statistical analysis that can be performed.\nFinally, other factors that could affect delivery performance, such as labor availability, fuel costs, holidays, and other operational conditions, were not included in the dataset."
+  },
+  {
+    "objectID": "projects/delivery-analysis.html#takeaway",
+    "href": "projects/delivery-analysis.html#takeaway",
+    "title": "Delivery Performance Analysis",
+    "section": "Takeaway",
+    "text": "Takeaway\nThis project helped me see how an initial question about weather developed into a broader operational finding. Temperature showed some relationship with truck planning, but the larger issue was the mismatch between seasonal demand and available capacity.\nThe analysis ultimately shifted the focus from simply asking whether weather affects deliveries to identifying when capacity shortages occur and how historical demand patterns can be used to plan resources more effectively.\n← Back to Projects"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About Me",
+    "section": "",
+    "text": "I’m a graduate student studying analytics at Boston University with a background in cognitive science and computer science. My interests have always been a mix of understanding people, working with technology, and figuring out how information can be used to solve problems. That combination is what ultimately drew me toward analytics.\nThrough school and my professional experience, I’ve had the opportunity to work with real datasets across several industries, including EV charging and energy infrastructure, logistics and delivery operations, hospitality and short-term rentals, and the job market. I’ve found that I especially enjoy taking a large or messy dataset, figuring out what is actually important, and turning the results into something that can help answer a business question or support a decision."
+  },
+  {
+    "objectID": "about.html#hi-im-richa",
+    "href": "about.html#hi-im-richa",
+    "title": "About Me",
+    "section": "",
+    "text": "I’m a graduate student studying analytics at Boston University with a background in cognitive science and computer science. My interests have always been a mix of understanding people, working with technology, and figuring out how information can be used to solve problems. That combination is what ultimately drew me toward analytics.\nThrough school and my professional experience, I’ve had the opportunity to work with real datasets across several industries, including EV charging and energy infrastructure, logistics and delivery operations, hospitality and short-term rentals, and the job market. I’ve found that I especially enjoy taking a large or messy dataset, figuring out what is actually important, and turning the results into something that can help answer a business question or support a decision."
+  },
+  {
+    "objectID": "about.html#my-interests",
+    "href": "about.html#my-interests",
+    "title": "About Me",
+    "section": "My Interests",
+    "text": "My Interests\nWhat interests me most about analytics is the combination of technical and human problem-solving. Because of my background in cognitive science and computer science, I’m interested in both how technology works and how people interact with it. I’m especially curious about customer behavior, product strategy, emerging technologies, and how organizations can use data to make better decisions.\nOutside of purely technical analysis, I also enjoy thinking about how products and processes can be designed more effectively for the people using them. I like work that gives me the opportunity to ask questions, explore different perspectives, and understand the reasoning behind the numbers rather than only focusing on the numbers themselves."
+  },
+  {
+    "objectID": "about.html#career-goals",
+    "href": "about.html#career-goals",
+    "title": "About Me",
+    "section": "Career Goals",
+    "text": "Career Goals\nMy goal is to build a career in data analytics and business intelligence, where I can work on problems involving operational performance, customer and market trends, forecasting, and business strategy. I’m especially interested in roles where I can use tools like SQL, Python, Power BI, and Excel while also working closely with business teams to understand their needs and help guide decisions.\nAs I gain experience, I’d like to take on more ownership of analytics projects from start to finish—from defining the problem and analyzing the data to presenting recommendations to stakeholders. Long term, I hope to grow into a position where I can lead analytics initiatives and help shape broader business and technology strategy."
+  },
+  {
     "objectID": "projects.html",
     "href": "projects.html",
     "title": "Projects",
@@ -84,83 +189,6 @@
     "text": "Project Status\nCurrently in development.\nI will continue updating this project as I complete the RAG pipeline and evaluate its performance.\n← Back to Projects"
   },
   {
-    "objectID": "projects/delivery-analysis.html",
-    "href": "projects/delivery-analysis.html",
-    "title": "Delivery Performance Analysis",
-    "section": "",
-    "text": "← Back to Projects"
-  },
-  {
-    "objectID": "projects/delivery-analysis.html#project-overview",
-    "href": "projects/delivery-analysis.html#project-overview",
-    "title": "Delivery Performance Analysis",
-    "section": "Project Overview",
-    "text": "Project Overview\nThis project focused on understanding what drives changes in delivery performance and truck capacity. I analyzed delivery operations from 2022–2025 and combined the data with historical temperature patterns from Dallas, Texas to explore whether changes in temperature were related to delivery demand, truck planning, and rescheduling.\nThe main goal was to separate the effects of seasonal demand from temperature and identify where operational planning could be improved."
-  },
-  {
-    "objectID": "projects/delivery-analysis.html#business-questions",
-    "href": "projects/delivery-analysis.html#business-questions",
-    "title": "Delivery Performance Analysis",
-    "section": "Business Questions",
-    "text": "Business Questions\nI focused the analysis around three main questions:\n\nWhen does delivery demand peak throughout the year?\nHow closely does actual truck capacity match expected capacity?\nDoes temperature have a meaningful relationship with delivery demand, truck capacity, or rescheduling?"
-  },
-  {
-    "objectID": "projects/delivery-analysis.html#delivery-demand",
-    "href": "projects/delivery-analysis.html#delivery-demand",
-    "title": "Delivery Performance Analysis",
-    "section": "Delivery Demand",
-    "text": "Delivery Demand\n\nDelivery volume shows a clear seasonal pattern. Average volume increased from approximately 12.8 million pounds in January to 17.3 million pounds in April, making March and April the busiest period of the year.\nAfter the spring peak, volume generally declined, although there was another increase in July. This pattern suggested that demand was not evenly distributed throughout the year and that capacity planning should account for predictable seasonal changes."
-  },
-  {
-    "objectID": "projects/delivery-analysis.html#truck-capacity",
-    "href": "projects/delivery-analysis.html#truck-capacity",
-    "title": "Delivery Performance Analysis",
-    "section": "Truck Capacity",
-    "text": "Truck Capacity\n\nComparing expected and actual trucks revealed a consistent capacity gap. Actual truck availability remained below expected truck requirements throughout the year.\nThe largest shortage occurred around June, when expected trucks reached approximately 50.7 while actual trucks were only around 40.2. The consistently negative truck variance showed that the operation was regularly working with fewer trucks than expected.\nThis was important because it showed that the challenge was not simply changing delivery demand. There was also a persistent difference between planned capacity and the resources actually available."
-  },
-  {
-    "objectID": "projects/delivery-analysis.html#relationship-between-operational-variables",
-    "href": "projects/delivery-analysis.html#relationship-between-operational-variables",
-    "title": "Delivery Performance Analysis",
-    "section": "Relationship Between Operational Variables",
-    "text": "Relationship Between Operational Variables\n\nI used a correlation matrix to better understand how the operational variables moved together.\nSome of the strongest relationships included:\n\nDelivery pounds and delivery quantity: 0.93\nExpected and actual trucks: 0.61\nTemperature and expected trucks: 0.79\nTemperature and actual trucks: 0.61\nRescheduled quantity and reschedule rate: 0.79\n\nOne result that stood out was the difference between temperature’s relationship with expected trucks and its relationship with actual delivery activity. Temperature had a relatively strong relationship with expected truck requirements, but weaker relationships with total delivery pounds (0.39) and delivery quantity (0.49).\nThis suggested that temperature and seasonality may be more closely connected to planning decisions than to actual delivery demand itself."
-  },
-  {
-    "objectID": "projects/delivery-analysis.html#temperature-and-truck-planning",
-    "href": "projects/delivery-analysis.html#temperature-and-truck-planning",
-    "title": "Delivery Performance Analysis",
-    "section": "Temperature and Truck Planning",
-    "text": "Temperature and Truck Planning\nThe temperature relationship became clearer when I looked at expected and actual trucks separately.\n\n\nExpected Trucks\n\nTemperature had a relatively strong positive relationship with expected truck requirements (r = 0.79). As average temperatures increased, the number of trucks expected by the operation generally increased as well.\n\n\nActual Trucks\n\nThe relationship between temperature and actual trucks was weaker (r = 0.61). Actual truck availability varied more and did not increase as consistently with temperature.\n\n\nLooking at these results together helped distinguish planning from actual capacity. Expected truck requirements responded more closely to seasonal temperature patterns, while the number of trucks actually available did not follow those patterns as strongly."
-  },
-  {
-    "objectID": "projects/delivery-analysis.html#key-findings",
-    "href": "projects/delivery-analysis.html#key-findings",
-    "title": "Delivery Performance Analysis",
-    "section": "Key Findings",
-    "text": "Key Findings\nOverall, the analysis showed that seasonal demand and capacity constraints were more important drivers of delivery performance than temperature alone.\n\nDelivery demand increased significantly during the spring and peaked around March and April.\nActual truck capacity remained below expected capacity throughout the year.\nTruck shortages continued during periods of high demand and were particularly large around June.\nHigher demand was associated with increased rescheduling.\nTemperature had relatively weak relationships with actual delivery activity.\nTemperature had a stronger relationship with expected truck requirements, suggesting a greater connection to operational planning than to delivery performance itself."
-  },
-  {
-    "objectID": "projects/delivery-analysis.html#business-recommendations",
-    "href": "projects/delivery-analysis.html#business-recommendations",
-    "title": "Delivery Performance Analysis",
-    "section": "Business Recommendations",
-    "text": "Business Recommendations\nBased on these findings, I identified three areas where operational planning could be improved:\n\nImprove truck allocation during peak spring demand. March and April consistently showed some of the highest delivery activity, so additional capacity should be planned before the seasonal increase occurs.\nIncrease capacity planning during periods with larger truck shortages. The gap between expected and actual trucks was especially noticeable around June, suggesting that expected demand was not always matched by available resources.\nPlan around demand patterns rather than temperature alone. Temperature provides useful seasonal context, but the analysis showed that actual delivery demand and capacity constraints are more important indicators for resource allocation."
-  },
-  {
-    "objectID": "projects/delivery-analysis.html#limitations",
-    "href": "projects/delivery-analysis.html#limitations",
-    "title": "Delivery Performance Analysis",
-    "section": "Limitations",
-    "text": "Limitations\nThere were several limitations to consider when interpreting the results.\nThe temperature data represented long-term historical averages from 1948–2022, while the operational delivery data covered 2022–2025. This required the analysis to assume that more recent temperature patterns were reasonably consistent with historical seasonal averages.\nAggregating the data by month also resulted in only 12 monthly observations, which limits the depth of statistical analysis that can be performed.\nFinally, other factors that could affect delivery performance, such as labor availability, fuel costs, holidays, and other operational conditions, were not included in the dataset."
-  },
-  {
-    "objectID": "projects/delivery-analysis.html#takeaway",
-    "href": "projects/delivery-analysis.html#takeaway",
-    "title": "Delivery Performance Analysis",
-    "section": "Takeaway",
-    "text": "Takeaway\nThis project helped me see how an initial question about weather developed into a broader operational finding. Temperature showed some relationship with truck planning, but the larger issue was the mismatch between seasonal demand and available capacity.\nThe analysis ultimately shifted the focus from simply asking whether weather affects deliveries to identifying when capacity shortages occur and how historical demand patterns can be used to plan resources more effectively.\n← Back to Projects"
-  },
-  {
     "objectID": "projects/airbnb-zurich.html",
     "href": "projects/airbnb-zurich.html",
     "title": "Airbnb Rentals in Zurich",
@@ -243,33 +271,5 @@
     "title": "Airbnb Rentals in Zurich",
     "section": "Takeaway",
     "text": "Takeaway\nThe biggest takeaway from this project was that there was no single model that explained the entire Airbnb market. Regression helped us investigate price, classification models explored listing and host behavior, the transformer allowed us to work with unstructured text, and clustering revealed broader market segments.\nWorking with several approaches on the same dataset also showed me how important it is to choose a method based on the question being asked rather than simply applying the most complex model available.\n← Back to Projects"
-  },
-  {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About Me",
-    "section": "",
-    "text": "I’m a graduate student studying analytics at Boston University with a background in cognitive science and computer science. My interests have always been a mix of understanding people, working with technology, and figuring out how information can be used to solve problems. That combination is what ultimately drew me toward analytics.\nThrough school and my professional experience, I’ve had the opportunity to work with real datasets across several industries, including EV charging and energy infrastructure, logistics and delivery operations, hospitality and short-term rentals, and the job market. I’ve found that I especially enjoy taking a large or messy dataset, figuring out what is actually important, and turning the results into something that can help answer a business question or support a decision."
-  },
-  {
-    "objectID": "about.html#hi-im-richa",
-    "href": "about.html#hi-im-richa",
-    "title": "About Me",
-    "section": "",
-    "text": "I’m a graduate student studying analytics at Boston University with a background in cognitive science and computer science. My interests have always been a mix of understanding people, working with technology, and figuring out how information can be used to solve problems. That combination is what ultimately drew me toward analytics.\nThrough school and my professional experience, I’ve had the opportunity to work with real datasets across several industries, including EV charging and energy infrastructure, logistics and delivery operations, hospitality and short-term rentals, and the job market. I’ve found that I especially enjoy taking a large or messy dataset, figuring out what is actually important, and turning the results into something that can help answer a business question or support a decision."
-  },
-  {
-    "objectID": "about.html#my-interests",
-    "href": "about.html#my-interests",
-    "title": "About Me",
-    "section": "My Interests",
-    "text": "My Interests\nWhat interests me most about analytics is the combination of technical and human problem-solving. Because of my background in cognitive science and computer science, I’m interested in both how technology works and how people interact with it. I’m especially curious about customer behavior, product strategy, emerging technologies, and how organizations can use data to make better decisions.\nOutside of purely technical analysis, I also enjoy thinking about how products and processes can be designed more effectively for the people using them. I like work that gives me the opportunity to ask questions, explore different perspectives, and understand the reasoning behind the numbers rather than only focusing on the numbers themselves."
-  },
-  {
-    "objectID": "about.html#career-goals",
-    "href": "about.html#career-goals",
-    "title": "About Me",
-    "section": "Career Goals",
-    "text": "Career Goals\nMy goal is to build a career in data analytics and business intelligence, where I can work on problems involving operational performance, customer and market trends, forecasting, and business strategy. I’m especially interested in roles where I can use tools like SQL, Python, Power BI, and Excel while also working closely with business teams to understand their needs and help guide decisions.\nAs I gain experience, I’d like to take on more ownership of analytics projects from start to finish—from defining the problem and analyzing the data to presenting recommendations to stakeholders. Long term, I hope to grow into a position where I can lead analytics initiatives and help shape broader business and technology strategy."
   }
 ]
