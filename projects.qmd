@@ -10,43 +10,55 @@ Here are a few projects that highlight my experience across business intelligenc
 
 ::: {.g-col-12 .g-col-md-4}
 
-## Delivery Performance Analysis
+<a href="projects/delivery-analysis.html" class="project-card">
+
+### Delivery Performance Analysis
 
 **Business Intelligence & Operations Analytics**
 
 Analyzed delivery operations from 2022–2025 to understand seasonal demand, truck capacity constraints, rescheduling patterns, and the relationship between temperature and operational performance.
 
-**Python • Pandas • Data Visualization • Correlation Analysis**
+<span class="project-tools">Python • Pandas • Data Visualization • Correlation Analysis</span>
 
-[**View Project →**](projects/delivery-analysis.qmd)
+<span class="project-link">View Project →</span>
+
+</a>
 
 :::
 
 ::: {.g-col-12 .g-col-md-4}
 
-## Airbnb Rentals in Zurich
+<a href="projects/airbnb-zurich.html" class="project-card">
+
+### Airbnb Rentals in Zurich
 
 **Machine Learning & Market Analytics**
 
 Analyzed 2,534 Airbnb listings across Zurich using statistical modeling, machine learning, NLP, and clustering to explore pricing, host behavior, and distinct market segments.
 
-**Python • Scikit-learn • DistilBERT • K-Means**
+<span class="project-tools">Python • Scikit-learn • DistilBERT • K-Means</span>
 
-[**View Project →**](projects/airbnb-zurich.qmd)
+<span class="project-link">View Project →</span>
+
+</a>
 
 :::
 
 ::: {.g-col-12 .g-col-md-4}
 
-## Retrieval-Augmented Generation (RAG)
+<a href="projects/rag-system.html" class="project-card">
+
+### Retrieval-Augmented Generation (RAG)
 
 **AI Engineering | In Progress**
 
 Currently developing a RAG system that combines document retrieval, vector search, and large language models to generate responses grounded in relevant source information.
 
-**Python • LLMs • Embeddings • Vector Search • FastAPI**
+<span class="project-tools">Python • LLMs • Embeddings • Vector Search • FastAPI</span>
 
-[**View Project →**](projects/rag-system.qmd)
+<span class="project-link">View Project →</span>
+
+</a>
 
 :::
 
