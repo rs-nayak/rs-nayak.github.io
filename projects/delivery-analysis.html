@@ -45,7 +45,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-55617497126496852ff9f5a59253c640.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-7c0f67eba7e864f644f943ef9a6fd48f.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -146,11 +146,11 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p><a href="../projects.html">← Back to Projects</a></p>
-<section id="delivery-performance-analysis" class="level1">
-<h1>Delivery Performance Analysis</h1>
+<p><a href="../projects.html" class="back-projects-btn">← Back to Projects</a></p>
 <p><strong>Business Intelligence Project | The Build Fellowship, Open Avenues Foundation</strong></p>
-<p><strong>Tools:</strong> Python, Pandas, Data Visualization, Correlation Analysis</p>
+<div class="project-tech">
+<p><span>Python</span> <span>Pandas</span> <span>NumPy</span> <span>Matplotlib</span> <span>Statistical Analysis</span></p>
+</div>
 <section id="project-overview" class="level2">
 <h2 class="anchored" data-anchor-id="project-overview">Project Overview</h2>
 <p>This project focused on understanding what drives changes in delivery performance and truck capacity. I analyzed delivery operations from 2022–2025 and combined the data with historical temperature patterns from Dallas, Texas to explore whether changes in temperature were related to delivery demand, truck planning, and rescheduling.</p>
@@ -243,9 +243,39 @@ ul.task-list li input[type="checkbox"] {
 <p>This project helped me see how an initial question about weather developed into a broader operational finding. Temperature showed some relationship with truck planning, but the larger issue was the mismatch between seasonal demand and available capacity.</p>
 <p>The analysis ultimately shifted the focus from simply asking whether weather affects deliveries to identifying <strong>when capacity shortages occur and how historical demand patterns can be used to plan resources more effectively</strong>.</p>
 <p><a href="../projects.html">← Back to Projects</a></p>
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+
+  const elements = document.querySelectorAll(
+    "main h2, main h3, main p, main ul, main ol, main img"
+  );
+
+  elements.forEach(function (element) {
+    element.classList.add("scroll-reveal");
+  });
+
+  const observer = new IntersectionObserver(
+    function (entries) {
+      entries.forEach(function (entry) {
+        if (entry.isIntersecting) {
+          entry.target.classList.add("revealed");
+          observer.unobserve(entry.target);
+        }
+      });
+    },
+    {
+      threshold: 0.12
+    }
+  );
+
+  elements.forEach(function (element) {
+    observer.observe(element);
+  });
+
+});
+</script>
 
 
-</section>
 </section>
 
 </main> <!-- /main -->
