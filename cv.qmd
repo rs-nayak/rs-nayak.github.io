@@ -2,8 +2,6 @@
 title: "CV"
 ---
 
-# CV
-
 ## Professional Background
 
 I’m a graduate student studying analytics at Boston University with a background in cognitive science and computer science. Through my academic and professional experience, I’ve worked with data across industries including HVAC and building technology, sales, EV charging and energy infrastructure, logistics and delivery operations, hospitality and short-term rentals, and the job market.

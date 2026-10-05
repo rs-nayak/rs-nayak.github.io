@@ -1,0 +1,7 @@
+---
+title: "Richa Nayak"
+---
+
+<script>
+window.location.replace("about.html");
+</script>

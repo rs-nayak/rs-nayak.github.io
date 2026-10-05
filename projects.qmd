@@ -2,8 +2,6 @@
 title: "Projects"
 ---
 
-# Projects
-
 Here are a few projects that highlight my experience across business intelligence, data analytics, machine learning, and AI. Click on a project to learn more about the methods, analysis, and results.
 
 ::: {.grid}

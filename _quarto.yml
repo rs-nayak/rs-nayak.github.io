@@ -4,8 +4,6 @@ project:
 website:
   title: "Richa Nayak"
   navbar:
-    background: "#FAF8F5"
-    foreground: "#1F2937"
     left:
       - text: About You
         href: about.qmd
@@ -21,7 +19,6 @@ format:
     theme: cosmo
     css: styles.css
     toc: false
-    smooth-scroll: true
     include-in-header:
       text: |
         <meta name="robots" content="noindex, nofollow">

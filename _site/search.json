@@ -4,14 +4,14 @@
     "href": "projects.html",
     "title": "Projects",
     "section": "",
-    "text": "Projects\nHere are a few projects that highlight my experience across business intelligence, data analytics, machine learning, and AI. Click on a project to learn more about the methods, analysis, and results.\n\n\n\n\nDelivery Performance Analysis\nBusiness Intelligence & Operations Analytics\nAnalyzed delivery operations from 2022–2025 to understand seasonal demand, truck capacity constraints, rescheduling patterns, and the relationship between temperature and operational performance.\nPython • Pandas • Data Visualization • Correlation Analysis\nView Project →\n\n\n\n\n\n\nAirbnb Rentals in Zurich\nMachine Learning & Market Analytics\nAnalyzed 2,534 Airbnb listings across Zurich using statistical modeling, machine learning, NLP, and clustering to explore pricing, host behavior, and distinct market segments.\nPython • Scikit-learn • DistilBERT • K-Means\nView Project →\n\n\n\n\n\n\nRetrieval-Augmented Generation (RAG)\nAI Engineering | In Progress\nCurrently developing a RAG system that combines document retrieval, vector search, and large language models to generate responses grounded in relevant source information.\nPython • LLMs • Embeddings • Vector Search • FastAPI\nView Project →"
+    "text": "Here are a few projects that highlight my experience across business intelligence, data analytics, machine learning, and AI. Click on a project to learn more about the methods, analysis, and results.\n\n\nDelivery Performance Analysis\nBusiness Intelligence & Operations Analytics\nAnalyzed delivery operations from 2022–2025 to understand seasonal demand, truck capacity constraints, rescheduling patterns, and the relationship between temperature and operational performance.\nPython • Pandas • Data Visualization • Correlation Analysis\nView Project →\n\n\nAirbnb Rentals in Zurich\nMachine Learning & Market Analytics\nAnalyzed 2,534 Airbnb listings across Zurich using statistical modeling, machine learning, NLP, and clustering to explore pricing, host behavior, and distinct market segments.\nPython • Scikit-learn • DistilBERT • K-Means\nView Project →\n\n\nRetrieval-Augmented Generation (RAG)\nAI Engineering | In Progress\nCurrently developing a RAG system that combines document retrieval, vector search, and large language models to generate responses grounded in relevant source information.\nPython • LLMs • Embeddings • Vector Search • FastAPI\nView Project →"
   },
   {
     "objectID": "cv.html",
     "href": "cv.html",
     "title": "CV",
     "section": "",
-    "text": "I’m a graduate student studying analytics at Boston University with a background in cognitive science and computer science. Through my academic and professional experience, I’ve worked with data across industries including HVAC and building technology, sales, EV charging and energy infrastructure, logistics and delivery operations, hospitality and short-term rentals, and the job market.\nMy experience has included data analysis, business intelligence, data visualization, machine learning, and more recently, AI engineering. I’ve worked with tools including Python, SQL, Power BI, Excel, and machine learning frameworks to analyze data, identify trends, and communicate findings that can support business decisions.\nI’m currently continuing to build my experience in analytics and AI through graduate coursework and hands-on projects, with a particular interest in roles that combine technical problem-solving with business strategy.\n\n\n\nA PDF version of my CV is available below.\nDownload CV (PDF) ↓"
+    "text": "I’m a graduate student studying analytics at Boston University with a background in cognitive science and computer science. Through my academic and professional experience, I’ve worked with data across industries including HVAC and building technology, sales, EV charging and energy infrastructure, logistics and delivery operations, hospitality and short-term rentals, and the job market.\nMy experience has included data analysis, business intelligence, data visualization, machine learning, and more recently, AI engineering. I’ve worked with tools including Python, SQL, Power BI, Excel, and machine learning frameworks to analyze data, identify trends, and communicate findings that can support business decisions.\nI’m currently continuing to build my experience in analytics and AI through graduate coursework and hands-on projects, with a particular interest in roles that combine technical problem-solving with business strategy."
   },
   {
     "objectID": "cv.html#professional-background",
@@ -24,8 +24,8 @@
     "objectID": "cv.html#download-my-cv",
     "href": "cv.html#download-my-cv",
     "title": "CV",
-    "section": "",
-    "text": "A PDF version of my CV is available below.\nDownload CV (PDF) ↓"
+    "section": "Download My CV",
+    "text": "Download My CV\nA PDF version of my CV is available below.\nDownload CV (PDF) ↓"
   },
   {
     "objectID": "projects/rag-system.html",
@@ -88,14 +88,14 @@
     "href": "contact.html",
     "title": "Contact",
     "section": "",
-    "text": "Thanks for visiting my portfolio! I’m always happy to connect with people in analytics, technology, and related fields.\nWhether you’d like to discuss an opportunity, a project, or just connect, feel free to reach out.\n\n\nEmail\nYOUR-EMAIL\nGitHub\nView my GitHub"
+    "text": "Thanks for visiting my portfolio! I’m always happy to connect with people in analytics, technology, and related fields.\nWhether you’d like to discuss an opportunity, a project, or just connect, feel free to reach out.\n\n\nEmail\nrsnayak@bu.edu\nGitHub\nView my GitHub!"
   },
   {
     "objectID": "contact.html#contact-me",
     "href": "contact.html#contact-me",
     "title": "Contact",
     "section": "",
-    "text": "Email\nYOUR-EMAIL\nGitHub\nView my GitHub"
+    "text": "Email\nrsnayak@bu.edu\nGitHub\nView my GitHub!"
   },
   {
     "objectID": "projects/delivery-analysis.html",

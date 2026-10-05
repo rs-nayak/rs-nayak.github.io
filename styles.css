@@ -1,53 +1,52 @@
 /* =========================================================
    RICHA NAYAK — PORTFOLIO
-   Clean, professional Quarto styling
+   Modern / clean / professional
+   CSS ONLY — does not alter Quarto structure
    ========================================================= */
 
 
-/* =========================================================
-   1. GLOBAL SITE STYLING
-   ========================================================= */
+/* ---------- GLOBAL ---------- */
 
 body {
-  background-color: #FAF8F5;
-  color: #374151;
-  font-family: "Helvetica Neue", Arial, sans-serif;
+  background-color: #FCFCFD;
+  color: #475569;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI",
+               Helvetica, Arial, sans-serif;
   font-size: 16px;
-  line-height: 1.7;
+  line-height: 1.75;
 }
 
 
-/* Main content area */
+/* ---------- MAIN CONTENT ---------- */
 
 main {
   max-width: 1050px;
   margin-left: auto;
   margin-right: auto;
-  padding-top: 30px;
-  padding-bottom: 70px;
+  padding-top: 40px;
+  padding-bottom: 80px;
 }
 
 
-/* =========================================================
-   2. HEADINGS
-   ========================================================= */
+/* ---------- HEADINGS ---------- */
 
 h1,
 h2,
 h3 {
-  color: #1F2937;
-  font-weight: 650;
+  color: #172554;
+  font-weight: 700;
   line-height: 1.25;
+  letter-spacing: -0.02em;
 }
 
 h1 {
-  font-size: 2.6rem;
-  margin-bottom: 1.5rem;
+  font-size: 2.7rem;
+  margin-bottom: 1.4rem;
 }
 
 h2 {
-  font-size: 1.7rem;
-  margin-top: 2.8rem;
+  font-size: 1.75rem;
+  margin-top: 3rem;
   margin-bottom: 1rem;
 }
 
@@ -58,169 +57,222 @@ h3 {
 }
 
 
-/* =========================================================
-   3. PARAGRAPHS
-   ========================================================= */
+/* ---------- PARAGRAPHS ---------- */
 
 p {
   margin-bottom: 1.25rem;
 }
 
 
-/* =========================================================
-   4. LINKS
-   ========================================================= */
+/* ---------- GENERAL LINKS ---------- */
 
 a {
-  color: #A6533D;
+  color: #4668A5;
   text-decoration: none;
+  transition: color 0.2s ease;
 }
 
 a:hover {
-  color: #7D3E2E;
-  text-decoration: underline;
+  color: #294C85;
+  text-decoration: none;
 }
 
 
 /* =========================================================
-   5. NAVBAR
+   NAVBAR
    ========================================================= */
 
 .navbar {
-  background-color: #FAF8F5 !important;
-  border-bottom: 1px solid #E7E2DC;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  background-color: rgba(255, 255, 255, 0.97) !important;
+  border-bottom: 1px solid #E5EAF1;
+  box-shadow: 0 2px 12px rgba(15, 23, 42, 0.04);
+  padding-top: 12px;
+  padding-bottom: 12px;
 }
 
 
-/* Site name */
+/* Name */
 
 .navbar-brand {
-  color: #1F2937 !important;
-  font-weight: 700;
+  color: #172554 !important;
+  font-weight: 750;
+  font-size: 1.15rem;
+  letter-spacing: -0.02em;
 }
 
 
-/* Navbar links */
+/* Navigation links */
 
 .navbar-nav .nav-link {
-  color: #4B5563 !important;
+  color: #64748B !important;
   font-weight: 500;
   margin-left: 8px;
   margin-right: 8px;
+  transition: color 0.2s ease;
 }
 
 .navbar-nav .nav-link:hover {
-  color: #A6533D !important;
+  color: #4668A5 !important;
 }
 
-
-/* Active page */
-
 .navbar-nav .nav-link.active {
-  color: #A6533D !important;
-  font-weight: 600;
+  color: #294C85 !important;
+  font-weight: 650;
 }
 
 
 /* =========================================================
-   6. ABOUT PAGE — HEADSHOT
+   ABOUT PAGE — HEADSHOT
    ========================================================= */
 
 .text-center img {
-  width: 230px;
-  height: 230px;
-  object-fit: cover;
-
+  max-width: 240px;
+  height: auto;
   border-radius: 50%;
 
-  margin-top: 10px;
-  margin-bottom: 25px;
+  border: 5px solid #FFFFFF;
 
-  box-shadow: 0 8px 24px rgba(31, 41, 55, 0.12);
+  box-shadow:
+    0 10px 30px rgba(15, 23, 42, 0.12);
+
+  margin-top: 10px;
+  margin-bottom: 28px;
 }
 
 
 /* =========================================================
-   7. PROJECT CARDS
+   PROJECT CARDS
+   Only affects elements already using .project-card
    ========================================================= */
-
-/*
-   This styles ONLY elements that you explicitly gave
-   the .project-card class in projects.qmd.
-
-   It does not alter Quarto's grid system.
-*/
 
 .project-card {
   background-color: #FFFFFF;
 
-  border: 1px solid #E7E2DC;
-  border-radius: 14px;
+  border: 1px solid #E2E8F0;
+  border-radius: 16px;
 
-  padding: 26px;
+  padding: 28px;
+  margin-bottom: 22px;
 
-  margin-bottom: 20px;
+  box-shadow:
+    0 4px 16px rgba(15, 23, 42, 0.045);
 
-  box-shadow: 0 4px 12px rgba(31, 41, 55, 0.05);
-
-  transition: transform 0.2s ease,
-              box-shadow 0.2s ease,
-              border-color 0.2s ease;
+  transition:
+    transform 0.2s ease,
+    box-shadow 0.2s ease,
+    border-color 0.2s ease;
 }
 
-
-/* Small hover effect */
 
 .project-card:hover {
   transform: translateY(-4px);
 
-  border-color: #D6C9C0;
+  border-color: #B8C8E0;
 
-  box-shadow: 0 10px 24px rgba(31, 41, 55, 0.09);
+  box-shadow:
+    0 12px 30px rgba(15, 23, 42, 0.09);
 }
 
 
-/* Project titles */
+/* Card title */
 
 .project-card h3 {
-  color: #1F2937;
-
-  font-size: 1.3rem;
-
+  color: #172554;
+  font-size: 1.35rem;
   margin-top: 0;
   margin-bottom: 14px;
 }
 
 
-/* Project descriptions */
+/* Card text */
 
 .project-card p {
-  color: #4B5563;
+  color: #64748B;
   font-size: 0.95rem;
   line-height: 1.65;
 }
 
 
-/* Project links */
+/* View Project links */
 
 .project-card a {
-  color: #A6533D;
+  display: inline-block;
 
-  font-weight: 600;
+  background-color: #EEF3FA;
+  color: #294C85 !important;
 
-  text-decoration: none;
+  border: 1px solid #D9E3F1;
+  border-radius: 8px;
+
+  padding: 9px 15px;
+  margin-top: 8px;
+
+  font-size: 0.92rem;
+  font-weight: 650;
+
+  text-decoration: none !important;
+
+  transition:
+    background-color 0.2s ease,
+    border-color 0.2s ease,
+    transform 0.2s ease;
 }
 
+
 .project-card a:hover {
-  color: #7D3E2E;
-  text-decoration: none;
+  background-color: #E1EAF6;
+  border-color: #B8C8E0;
+
+  transform: translateY(-1px);
+
+  color: #172554 !important;
 }
 
 
 /* =========================================================
-   8. IMAGES ON PROJECT PAGES
+   CV DOWNLOAD BUTTON
+   ========================================================= */
+
+.btn-primary {
+  background-color: #6F91C7 !important;
+  border: 1px solid #6F91C7 !important;
+
+  color: #FFFFFF !important;
+
+  border-radius: 9px;
+
+  padding: 11px 20px;
+
+  font-size: 0.95rem;
+  font-weight: 650;
+
+  box-shadow:
+    0 4px 12px rgba(111, 145, 199, 0.20);
+
+  text-decoration: none !important;
+
+  transition:
+    background-color 0.2s ease,
+    border-color 0.2s ease,
+    transform 0.2s ease,
+    box-shadow 0.2s ease;
+}
+
+.btn-primary:hover {
+  background-color: #5D7FB5 !important;
+  border-color: #5D7FB5 !important;
+
+  color: #FFFFFF !important;
+
+  transform: translateY(-2px);
+
+  box-shadow:
+    0 7px 18px rgba(111, 145, 199, 0.28);
+}
+
+
+/* =========================================================
+   PROJECT PAGE IMAGES
    ========================================================= */
 
 main img {
@@ -229,26 +281,18 @@ main img {
 }
 
 
-/*
-   Adds subtle styling to regular analytical images.
-   Does not affect layout or positioning.
-*/
-
 main p img {
-  display: block;
+  border-radius: 10px;
 
-  margin-top: 25px;
-  margin-bottom: 35px;
+  margin-top: 18px;
+  margin-bottom: 32px;
 
-  border-radius: 8px;
-
-  box-shadow: 0 4px 16px rgba(31, 41, 55, 0.07);
+  box-shadow:
+    0 5px 20px rgba(15, 23, 42, 0.07);
 }
 
 
-/*
-   Keep About Me headshot circular.
-*/
+/* Keep headshot circular */
 
 .text-center img {
   border-radius: 50%;
@@ -256,36 +300,17 @@ main p img {
 
 
 /* =========================================================
-   9. BUTTONS
+   BOLD TEXT
    ========================================================= */
 
-.btn-primary {
-  background-color: #A6533D;
-  border-color: #A6533D;
-
-  color: #FFFFFF !important;
-
-  border-radius: 8px;
-
-  padding: 10px 18px;
-
-  font-weight: 600;
-
-  text-decoration: none;
-}
-
-.btn-primary:hover {
-  background-color: #874330;
-  border-color: #874330;
-
-  color: #FFFFFF !important;
-
-  text-decoration: none;
+strong {
+  color: #334155;
+  font-weight: 650;
 }
 
 
 /* =========================================================
-   10. LISTS
+   LISTS
    ========================================================= */
 
 ul,
@@ -299,22 +324,12 @@ li {
 
 
 /* =========================================================
-   11. BOLD TEXT
-   ========================================================= */
-
-strong {
-  color: #273142;
-  font-weight: 650;
-}
-
-
-/* =========================================================
-   12. HORIZONTAL LINES
+   HORIZONTAL LINES
    ========================================================= */
 
 hr {
   border: 0;
-  border-top: 1px solid #E7E2DC;
+  border-top: 1px solid #E2E8F0;
 
   margin-top: 3rem;
   margin-bottom: 3rem;
@@ -322,31 +337,61 @@ hr {
 
 
 /* =========================================================
-   13. CODE
+   CODE
    ========================================================= */
 
 code {
-  background-color: #F1EDE8;
-  color: #7D3E2E;
+  background-color: #F1F5F9;
+  color: #294C85;
 
-  padding: 2px 5px;
+  border-radius: 5px;
 
-  border-radius: 4px;
+  padding: 2px 6px;
 }
 
 
 /* =========================================================
-   14. SELECTION COLOR
+   TABLES
+   ========================================================= */
+
+table {
+  background-color: #FFFFFF;
+  border-color: #E2E8F0;
+}
+
+thead {
+  background-color: #F8FAFC;
+}
+
+
+/* =========================================================
+   BLOCKQUOTES
+   ========================================================= */
+
+blockquote {
+  border-left: 4px solid #9DB2D0;
+  background-color: #F8FAFC;
+
+  padding: 15px 20px;
+
+  color: #475569;
+
+  border-radius: 0 8px 8px 0;
+}
+
+
+/* =========================================================
+   TEXT SELECTION
    ========================================================= */
 
 ::selection {
-  background-color: #EAD8CF;
-  color: #1F2937;
+  background-color: #DDE7F5;
+  color: #172554;
 }
 
 
 /* =========================================================
-   15. MOBILE
+   MOBILE
    ========================================================= */
 
 @media (max-width: 768px) {
@@ -356,13 +401,14 @@ code {
   }
 
   main {
-    padding-left: 16px;
-    padding-right: 16px;
-    padding-top: 20px;
+    padding-left: 18px;
+    padding-right: 18px;
+    padding-top: 25px;
+    padding-bottom: 55px;
   }
 
   h1 {
-    font-size: 2.1rem;
+    font-size: 2.15rem;
   }
 
   h2 {
@@ -374,8 +420,7 @@ code {
   }
 
   .text-center img {
-    width: 190px;
-    height: 190px;
+    max-width: 190px;
   }
 
   .project-card {
@@ -383,4 +428,7 @@ code {
     margin-bottom: 18px;
   }
 
+  .project-card a {
+    padding: 9px 14px;
+  }
 }
