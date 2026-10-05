@@ -1,89 +1,5 @@
 [
   {
-    "objectID": "projects.html",
-    "href": "projects.html",
-    "title": "Projects",
-    "section": "",
-    "text": "Projects\nHere are a few projects that highlight my experience across business intelligence, data analytics, machine learning, and AI. Click on a project to learn more about the methods, analysis, and results.\n\n\nDelivery Performance Analysis\nBusiness Intelligence & Operations Analytics\nAnalyzed delivery operations from 2022–2025 to understand seasonal demand, truck capacity constraints, rescheduling patterns, and the relationship between temperature and operational performance.\nPython • Pandas • Data Visualization • Correlation Analysis\nView Project →\n\n\nAirbnb Rentals in Zurich\nMachine Learning & Market Analytics\nAnalyzed 2,534 Airbnb listings across Zurich using statistical modeling, machine learning, NLP, and clustering to explore pricing, host behavior, and distinct market segments.\nPython • Scikit-learn • DistilBERT • K-Means\nView Project →\n\n\nRetrieval-Augmented Generation (RAG)\nAI Engineering | In Progress\nCurrently developing a RAG system that combines document retrieval, vector search, and large language models to generate responses grounded in relevant source information.\nPython • LLMs • Embeddings • Vector Search • FastAPI\nView Project →"
-  },
-  {
-    "objectID": "cv.html",
-    "href": "cv.html",
-    "title": "CV",
-    "section": "",
-    "text": "I’m a graduate student studying analytics at Boston University with a background in cognitive science and computer science. Through my academic and professional experience, I’ve worked with data across industries including HVAC and building technology, sales, EV charging and energy infrastructure, logistics and delivery operations, hospitality and short-term rentals, and the job market.\nMy experience has included data analysis, business intelligence, data visualization, machine learning, and more recently, AI engineering. I’ve worked with tools including Python, SQL, Power BI, Excel, and machine learning frameworks to analyze data, identify trends, and communicate findings that can support business decisions.\nI’m currently continuing to build my experience in analytics and AI through graduate coursework and hands-on projects, with a particular interest in roles that combine technical problem-solving with business strategy.\n\n\n\nA PDF version of my CV is available below.\nDownload CV (PDF) ↓"
-  },
-  {
-    "objectID": "cv.html#professional-background",
-    "href": "cv.html#professional-background",
-    "title": "CV",
-    "section": "",
-    "text": "I’m a graduate student studying analytics at Boston University with a background in cognitive science and computer science. Through my academic and professional experience, I’ve worked with data across industries including HVAC and building technology, sales, EV charging and energy infrastructure, logistics and delivery operations, hospitality and short-term rentals, and the job market.\nMy experience has included data analysis, business intelligence, data visualization, machine learning, and more recently, AI engineering. I’ve worked with tools including Python, SQL, Power BI, Excel, and machine learning frameworks to analyze data, identify trends, and communicate findings that can support business decisions.\nI’m currently continuing to build my experience in analytics and AI through graduate coursework and hands-on projects, with a particular interest in roles that combine technical problem-solving with business strategy."
-  },
-  {
-    "objectID": "cv.html#download-my-cv",
-    "href": "cv.html#download-my-cv",
-    "title": "CV",
-    "section": "",
-    "text": "A PDF version of my CV is available below.\nDownload CV (PDF) ↓"
-  },
-  {
-    "objectID": "projects/rag-system.html",
-    "href": "projects/rag-system.html",
-    "title": "Retrieval-Augmented Generation (RAG) System",
-    "section": "",
-    "text": "← Back to Projects"
-  },
-  {
-    "objectID": "projects/rag-system.html#project-overview",
-    "href": "projects/rag-system.html#project-overview",
-    "title": "Retrieval-Augmented Generation (RAG) System",
-    "section": "Project Overview",
-    "text": "Project Overview\nI am currently working on a Retrieval-Augmented Generation (RAG) project focused on building a system that can answer questions using information retrieved from a collection of documents.\nThe goal of the project is to explore how large language models can be combined with external information sources so that generated responses are grounded in relevant document content rather than relying only on the model’s existing knowledge."
-  },
-  {
-    "objectID": "projects/rag-system.html#what-is-rag",
-    "href": "projects/rag-system.html#what-is-rag",
-    "title": "Retrieval-Augmented Generation (RAG) System",
-    "section": "What is RAG?",
-    "text": "What is RAG?\nRetrieval-Augmented Generation combines information retrieval with a large language model.\nInstead of sending a question directly to the language model, the system first searches a collection of documents for information that is relevant to the user’s question. The retrieved context is then provided to the language model along with the question so it can generate a more informed and grounded response.\nAt a high level, the process follows:\nDocuments → Processing & Chunking → Embeddings → Vector Search → Relevant Context → LLM → Response"
-  },
-  {
-    "objectID": "projects/rag-system.html#what-im-working-on",
-    "href": "projects/rag-system.html#what-im-working-on",
-    "title": "Retrieval-Augmented Generation (RAG) System",
-    "section": "What I’m Working On",
-    "text": "What I’m Working On\nMy work on the project involves developing and connecting the different components of the RAG pipeline, including:\n\nPreparing and processing source documents for retrieval.\nBreaking larger documents into smaller chunks that can be searched more effectively.\nCreating embeddings that represent the meaning of document content numerically.\nUsing vector similarity search to identify document chunks that are most relevant to a user’s question.\nProviding retrieved context to a large language model before generating a response.\nDeveloping the backend workflow needed to connect retrieval and generation.\nUsing FastAPI to support communication between different components of the system.\nTesting different approaches to improve the relevance and quality of retrieved information."
-  },
-  {
-    "objectID": "projects/rag-system.html#why-retrieval-matters",
-    "href": "projects/rag-system.html#why-retrieval-matters",
-    "title": "Retrieval-Augmented Generation (RAG) System",
-    "section": "Why Retrieval Matters",
-    "text": "Why Retrieval Matters\nOne of the main challenges in a RAG system is making sure the model receives the right information before it generates an answer.\nIf the retrieval step returns irrelevant or incomplete context, even a strong language model may produce a weak response. Because of this, I am learning that building a RAG system involves more than simply connecting a vector database to an LLM. Decisions around document preparation, chunking, embeddings, retrieval, and prompting can all affect the final result."
-  },
-  {
-    "objectID": "projects/rag-system.html#current-focus",
-    "href": "projects/rag-system.html#current-focus",
-    "title": "Retrieval-Augmented Generation (RAG) System",
-    "section": "Current Focus",
-    "text": "Current Focus\nSince this project is still in progress, I am continuing to develop and test the different parts of the pipeline.\nMy current focus is on understanding how the retrieval and generation components work together, improving the quality of retrieved context, and building a reliable workflow for moving from a user’s question to a grounded response.\nAs the project progresses, I plan to continue evaluating the system and documenting the final architecture, implementation decisions, and results."
-  },
-  {
-    "objectID": "projects/rag-system.html#what-im-learning",
-    "href": "projects/rag-system.html#what-im-learning",
-    "title": "Retrieval-Augmented Generation (RAG) System",
-    "section": "What I’m Learning",
-    "text": "What I’m Learning\nThis project is giving me hands-on experience with a different area of data and AI than my previous analytics projects. In addition to working with Python, I am learning how unstructured documents can be transformed into searchable representations and how retrieval systems can be integrated with large language models.\nIt has also helped me better understand the importance of the systems surrounding an AI model. The quality of an AI application depends not only on the model itself, but also on how information is processed, retrieved, passed to the model, and returned to the user."
-  },
-  {
-    "objectID": "projects/rag-system.html#project-status",
-    "href": "projects/rag-system.html#project-status",
-    "title": "Retrieval-Augmented Generation (RAG) System",
-    "section": "Project Status",
-    "text": "Project Status\nCurrently in development.\nI will continue updating this project as I complete the RAG pipeline and evaluate its performance.\n← Back to Projects"
-  },
-  {
     "objectID": "contact.html",
     "href": "contact.html",
     "title": "Contact",
@@ -175,6 +91,118 @@
     "text": "Takeaway\nThis project helped me see how an initial question about weather developed into a broader operational finding. Temperature showed some relationship with truck planning, but the larger issue was the mismatch between seasonal demand and available capacity.\nThe analysis ultimately shifted the focus from simply asking whether weather affects deliveries to identifying when capacity shortages occur and how historical demand patterns can be used to plan resources more effectively.\n← Back to Projects"
   },
   {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About Me",
+    "section": "",
+    "text": "I’m a graduate student studying analytics at Boston University with a background in cognitive science and computer science. My interests have always been a mix of understanding people, working with technology, and figuring out how information can be used to solve problems. That combination is what ultimately drew me toward analytics.\nThrough school and my professional experience, I’ve had the opportunity to work with real datasets across several industries, including EV charging and energy infrastructure, HVAC and building technology, sales, logistics and delivery operations, hospitality and short-term rentals, and the job market. These experiences have exposed me to different types of data and business problems, from analyzing sales and operational performance to exploring customer and market trends. I’ve found that I especially enjoy working through large or messy datasets, figuring out which patterns actually matter, and using what I find to answer practical business questions and support better decisions."
+  },
+  {
+    "objectID": "about.html#hi-im-richa",
+    "href": "about.html#hi-im-richa",
+    "title": "About Me",
+    "section": "",
+    "text": "I’m a graduate student studying analytics at Boston University with a background in cognitive science and computer science. My interests have always been a mix of understanding people, working with technology, and figuring out how information can be used to solve problems. That combination is what ultimately drew me toward analytics.\nThrough school and my professional experience, I’ve had the opportunity to work with real datasets across several industries, including EV charging and energy infrastructure, HVAC and building technology, sales, logistics and delivery operations, hospitality and short-term rentals, and the job market. These experiences have exposed me to different types of data and business problems, from analyzing sales and operational performance to exploring customer and market trends. I’ve found that I especially enjoy working through large or messy datasets, figuring out which patterns actually matter, and using what I find to answer practical business questions and support better decisions."
+  },
+  {
+    "objectID": "about.html#my-interests",
+    "href": "about.html#my-interests",
+    "title": "About Me",
+    "section": "My Interests",
+    "text": "My Interests\nWhat interests me most about analytics is the combination of technical and human problem-solving. Because of my background in cognitive science and computer science, I’m interested in both how technology works and how people interact with it. I’m especially curious about customer behavior, product strategy, emerging technologies, and how organizations can use data to make better decisions.\nOutside of purely technical analysis, I also enjoy thinking about how products and processes can be designed more effectively for the people using them. I like work that gives me the opportunity to ask questions, explore different perspectives, and understand the reasoning behind the numbers rather than only focusing on the numbers themselves."
+  },
+  {
+    "objectID": "about.html#career-goals",
+    "href": "about.html#career-goals",
+    "title": "About Me",
+    "section": "Career Goals",
+    "text": "Career Goals\nMy goal is to build a career in data analytics and business intelligence, where I can work on problems involving operational performance, customer and market trends, forecasting, and business strategy. I’m especially interested in roles where I can use tools like SQL, Python, Power BI, and Excel while also working closely with business teams to understand their needs and help guide decisions.\nAs I gain experience, I’d like to take on more ownership of analytics projects from start to finish—from defining the problem and analyzing the data to presenting recommendations to stakeholders. Long term, I hope to grow into a position where I can lead analytics initiatives and help shape broader business and technology strategy."
+  },
+  {
+    "objectID": "cv.html",
+    "href": "cv.html",
+    "title": "CV",
+    "section": "",
+    "text": "I’m a graduate student studying analytics at Boston University with a background in cognitive science and computer science. Through my academic and professional experience, I’ve worked with data across industries including HVAC and building technology, sales, EV charging and energy infrastructure, logistics and delivery operations, hospitality and short-term rentals, and the job market.\nMy experience has included data analysis, business intelligence, data visualization, machine learning, and more recently, AI engineering. I’ve worked with tools including Python, SQL, Power BI, Excel, and machine learning frameworks to analyze data, identify trends, and communicate findings that can support business decisions.\nI’m currently continuing to build my experience in analytics and AI through graduate coursework and hands-on projects, with a particular interest in roles that combine technical problem-solving with business strategy.\n\n\n\nA PDF version of my CV is available below.\nDownload CV (PDF) ↓"
+  },
+  {
+    "objectID": "cv.html#professional-background",
+    "href": "cv.html#professional-background",
+    "title": "CV",
+    "section": "",
+    "text": "I’m a graduate student studying analytics at Boston University with a background in cognitive science and computer science. Through my academic and professional experience, I’ve worked with data across industries including HVAC and building technology, sales, EV charging and energy infrastructure, logistics and delivery operations, hospitality and short-term rentals, and the job market.\nMy experience has included data analysis, business intelligence, data visualization, machine learning, and more recently, AI engineering. I’ve worked with tools including Python, SQL, Power BI, Excel, and machine learning frameworks to analyze data, identify trends, and communicate findings that can support business decisions.\nI’m currently continuing to build my experience in analytics and AI through graduate coursework and hands-on projects, with a particular interest in roles that combine technical problem-solving with business strategy."
+  },
+  {
+    "objectID": "cv.html#download-my-cv",
+    "href": "cv.html#download-my-cv",
+    "title": "CV",
+    "section": "",
+    "text": "A PDF version of my CV is available below.\nDownload CV (PDF) ↓"
+  },
+  {
+    "objectID": "projects.html",
+    "href": "projects.html",
+    "title": "Projects",
+    "section": "",
+    "text": "Projects\nHere are a few projects that highlight my experience across business intelligence, data analytics, machine learning, and AI. Click on a project to learn more about the methods, analysis, and results.\n\n\nDelivery Performance Analysis\nBusiness Intelligence & Operations Analytics\nAnalyzed delivery operations from 2022–2025 to understand seasonal demand, truck capacity constraints, rescheduling patterns, and the relationship between temperature and operational performance.\nPython • Pandas • Data Visualization • Correlation Analysis\nView Project →\n\n\nAirbnb Rentals in Zurich\nMachine Learning & Market Analytics\nAnalyzed 2,534 Airbnb listings across Zurich using statistical modeling, machine learning, NLP, and clustering to explore pricing, host behavior, and distinct market segments.\nPython • Scikit-learn • DistilBERT • K-Means\nView Project →\n\n\nRetrieval-Augmented Generation (RAG)\nAI Engineering | In Progress\nCurrently developing a RAG system that combines document retrieval, vector search, and large language models to generate responses grounded in relevant source information.\nPython • LLMs • Embeddings • Vector Search • FastAPI\nView Project →"
+  },
+  {
+    "objectID": "projects/rag-system.html",
+    "href": "projects/rag-system.html",
+    "title": "Retrieval-Augmented Generation (RAG) System",
+    "section": "",
+    "text": "← Back to Projects"
+  },
+  {
+    "objectID": "projects/rag-system.html#project-overview",
+    "href": "projects/rag-system.html#project-overview",
+    "title": "Retrieval-Augmented Generation (RAG) System",
+    "section": "Project Overview",
+    "text": "Project Overview\nI am currently working on a Retrieval-Augmented Generation (RAG) project focused on building a system that can answer questions using information retrieved from a collection of documents.\nThe goal of the project is to explore how large language models can be combined with external information sources so that generated responses are grounded in relevant document content rather than relying only on the model’s existing knowledge."
+  },
+  {
+    "objectID": "projects/rag-system.html#what-is-rag",
+    "href": "projects/rag-system.html#what-is-rag",
+    "title": "Retrieval-Augmented Generation (RAG) System",
+    "section": "What is RAG?",
+    "text": "What is RAG?\nRetrieval-Augmented Generation combines information retrieval with a large language model.\nInstead of sending a question directly to the language model, the system first searches a collection of documents for information that is relevant to the user’s question. The retrieved context is then provided to the language model along with the question so it can generate a more informed and grounded response.\nAt a high level, the process follows:\nDocuments → Processing & Chunking → Embeddings → Vector Search → Relevant Context → LLM → Response"
+  },
+  {
+    "objectID": "projects/rag-system.html#what-im-working-on",
+    "href": "projects/rag-system.html#what-im-working-on",
+    "title": "Retrieval-Augmented Generation (RAG) System",
+    "section": "What I’m Working On",
+    "text": "What I’m Working On\nMy work on the project involves developing and connecting the different components of the RAG pipeline, including:\n\nPreparing and processing source documents for retrieval.\nBreaking larger documents into smaller chunks that can be searched more effectively.\nCreating embeddings that represent the meaning of document content numerically.\nUsing vector similarity search to identify document chunks that are most relevant to a user’s question.\nProviding retrieved context to a large language model before generating a response.\nDeveloping the backend workflow needed to connect retrieval and generation.\nUsing FastAPI to support communication between different components of the system.\nTesting different approaches to improve the relevance and quality of retrieved information."
+  },
+  {
+    "objectID": "projects/rag-system.html#why-retrieval-matters",
+    "href": "projects/rag-system.html#why-retrieval-matters",
+    "title": "Retrieval-Augmented Generation (RAG) System",
+    "section": "Why Retrieval Matters",
+    "text": "Why Retrieval Matters\nOne of the main challenges in a RAG system is making sure the model receives the right information before it generates an answer.\nIf the retrieval step returns irrelevant or incomplete context, even a strong language model may produce a weak response. Because of this, I am learning that building a RAG system involves more than simply connecting a vector database to an LLM. Decisions around document preparation, chunking, embeddings, retrieval, and prompting can all affect the final result."
+  },
+  {
+    "objectID": "projects/rag-system.html#current-focus",
+    "href": "projects/rag-system.html#current-focus",
+    "title": "Retrieval-Augmented Generation (RAG) System",
+    "section": "Current Focus",
+    "text": "Current Focus\nSince this project is still in progress, I am continuing to develop and test the different parts of the pipeline.\nMy current focus is on understanding how the retrieval and generation components work together, improving the quality of retrieved context, and building a reliable workflow for moving from a user’s question to a grounded response.\nAs the project progresses, I plan to continue evaluating the system and documenting the final architecture, implementation decisions, and results."
+  },
+  {
+    "objectID": "projects/rag-system.html#what-im-learning",
+    "href": "projects/rag-system.html#what-im-learning",
+    "title": "Retrieval-Augmented Generation (RAG) System",
+    "section": "What I’m Learning",
+    "text": "What I’m Learning\nThis project is giving me hands-on experience with a different area of data and AI than my previous analytics projects. In addition to working with Python, I am learning how unstructured documents can be transformed into searchable representations and how retrieval systems can be integrated with large language models.\nIt has also helped me better understand the importance of the systems surrounding an AI model. The quality of an AI application depends not only on the model itself, but also on how information is processed, retrieved, passed to the model, and returned to the user."
+  },
+  {
+    "objectID": "projects/rag-system.html#project-status",
+    "href": "projects/rag-system.html#project-status",
+    "title": "Retrieval-Augmented Generation (RAG) System",
+    "section": "Project Status",
+    "text": "Project Status\nCurrently in development.\nI will continue updating this project as I complete the RAG pipeline and evaluate its performance.\n← Back to Projects"
+  },
+  {
     "objectID": "projects/airbnb-zurich.html",
     "href": "projects/airbnb-zurich.html",
     "title": "Airbnb Rentals in Zurich",
@@ -257,33 +285,5 @@
     "title": "Airbnb Rentals in Zurich",
     "section": "Takeaway",
     "text": "Takeaway\nThe biggest takeaway from this project was that there was no single model that explained the entire Airbnb market. Regression helped us investigate price, classification models explored listing and host behavior, the transformer allowed us to work with unstructured text, and clustering revealed broader market segments.\nWorking with several approaches on the same dataset also showed me how important it is to choose a method based on the question being asked rather than simply applying the most complex model available.\n← Back to Projects"
-  },
-  {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About Me",
-    "section": "",
-    "text": "I’m a graduate student studying analytics at Boston University with a background in cognitive science and computer science. My interests have always been a mix of understanding people, working with technology, and figuring out how information can be used to solve problems. That combination is what ultimately drew me toward analytics.\nThrough school and my professional experience, I’ve had the opportunity to work with real datasets across several industries, including EV charging and energy infrastructure, HVAC and building technology, sales, logistics and delivery operations, hospitality and short-term rentals, and the job market. These experiences have exposed me to different types of data and business problems, from analyzing sales and operational performance to exploring customer and market trends. I’ve found that I especially enjoy working through large or messy datasets, figuring out which patterns actually matter, and using what I find to answer practical business questions and support better decisions."
-  },
-  {
-    "objectID": "about.html#hi-im-richa",
-    "href": "about.html#hi-im-richa",
-    "title": "About Me",
-    "section": "",
-    "text": "I’m a graduate student studying analytics at Boston University with a background in cognitive science and computer science. My interests have always been a mix of understanding people, working with technology, and figuring out how information can be used to solve problems. That combination is what ultimately drew me toward analytics.\nThrough school and my professional experience, I’ve had the opportunity to work with real datasets across several industries, including EV charging and energy infrastructure, HVAC and building technology, sales, logistics and delivery operations, hospitality and short-term rentals, and the job market. These experiences have exposed me to different types of data and business problems, from analyzing sales and operational performance to exploring customer and market trends. I’ve found that I especially enjoy working through large or messy datasets, figuring out which patterns actually matter, and using what I find to answer practical business questions and support better decisions."
-  },
-  {
-    "objectID": "about.html#my-interests",
-    "href": "about.html#my-interests",
-    "title": "About Me",
-    "section": "My Interests",
-    "text": "My Interests\nWhat interests me most about analytics is the combination of technical and human problem-solving. Because of my background in cognitive science and computer science, I’m interested in both how technology works and how people interact with it. I’m especially curious about customer behavior, product strategy, emerging technologies, and how organizations can use data to make better decisions.\nOutside of purely technical analysis, I also enjoy thinking about how products and processes can be designed more effectively for the people using them. I like work that gives me the opportunity to ask questions, explore different perspectives, and understand the reasoning behind the numbers rather than only focusing on the numbers themselves."
-  },
-  {
-    "objectID": "about.html#career-goals",
-    "href": "about.html#career-goals",
-    "title": "About Me",
-    "section": "Career Goals",
-    "text": "Career Goals\nMy goal is to build a career in data analytics and business intelligence, where I can work on problems involving operational performance, customer and market trends, forecasting, and business strategy. I’m especially interested in roles where I can use tools like SQL, Python, Power BI, and Excel while also working closely with business teams to understand their needs and help guide decisions.\nAs I gain experience, I’d like to take on more ownership of analytics projects from start to finish—from defining the problem and analyzing the data to presenting recommendations to stakeholders. Long term, I hope to grow into a position where I can lead analytics initiatives and help shape broader business and technology strategy."
   }
 ]
