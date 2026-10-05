@@ -1,320 +1,353 @@
-/* ================================
+/* =========================================================
    RICHA NAYAK — PORTFOLIO
-   ================================ */
+   Clean, professional Quarto styling
+   ========================================================= */
 
 
-/* ---------- GLOBAL ---------- */
+/* =========================================================
+   1. GLOBAL SITE STYLING
+   ========================================================= */
 
 body {
   background-color: #FAF8F5;
-  color: #2D3748;
+  color: #374151;
   font-family: "Helvetica Neue", Arial, sans-serif;
-  font-size: 17px;
-  line-height: 1.75;
+  font-size: 16px;
+  line-height: 1.7;
 }
 
 
-/* ---------- PAGE WIDTH ---------- */
+/* Main content area */
 
 main {
   max-width: 1050px;
-  margin: 0 auto;
-  padding-top: 35px;
-  padding-bottom: 80px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 30px;
+  padding-bottom: 70px;
 }
 
 
-/* ---------- HEADINGS ---------- */
+/* =========================================================
+   2. HEADINGS
+   ========================================================= */
 
 h1,
 h2,
 h3 {
   color: #1F2937;
   font-weight: 650;
-  letter-spacing: -0.02em;
+  line-height: 1.25;
 }
 
 h1 {
-  font-size: 2.7rem;
+  font-size: 2.6rem;
   margin-bottom: 1.5rem;
 }
 
 h2 {
-  font-size: 1.75rem;
-  margin-top: 3rem;
-  margin-bottom: 1.2rem;
+  font-size: 1.7rem;
+  margin-top: 2.8rem;
+  margin-bottom: 1rem;
 }
 
 h3 {
-  font-size: 1.25rem;
+  font-size: 1.3rem;
   margin-top: 2rem;
+  margin-bottom: 0.8rem;
 }
 
 
-/* ---------- PARAGRAPHS ---------- */
+/* =========================================================
+   3. PARAGRAPHS
+   ========================================================= */
 
 p {
-  margin-bottom: 1.3rem;
+  margin-bottom: 1.25rem;
 }
 
 
-/* ---------- LINKS ---------- */
+/* =========================================================
+   4. LINKS
+   ========================================================= */
 
 a {
   color: #A6533D;
   text-decoration: none;
-  font-weight: 500;
 }
 
 a:hover {
-  color: #713B2C;
+  color: #7D3E2E;
   text-decoration: underline;
 }
 
 
-/* ================================
-   NAVIGATION
-   ================================ */
+/* =========================================================
+   5. NAVBAR
+   ========================================================= */
 
 .navbar {
   background-color: #FAF8F5 !important;
   border-bottom: 1px solid #E7E2DC;
-  padding-top: 12px;
-  padding-bottom: 12px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
+
+
+/* Site name */
 
 .navbar-brand {
   color: #1F2937 !important;
   font-weight: 700;
-  letter-spacing: -0.02em;
 }
+
+
+/* Navbar links */
 
 .navbar-nav .nav-link {
   color: #4B5563 !important;
   font-weight: 500;
-  margin-left: 12px;
-  margin-right: 12px;
-  transition: color 0.2s ease;
+  margin-left: 8px;
+  margin-right: 8px;
 }
 
 .navbar-nav .nav-link:hover {
   color: #A6533D !important;
 }
 
+
+/* Active page */
+
 .navbar-nav .nav-link.active {
   color: #A6533D !important;
+  font-weight: 600;
 }
 
 
-/* ================================
-   ABOUT PAGE / HEADSHOT
-   ================================ */
+/* =========================================================
+   6. ABOUT PAGE — HEADSHOT
+   ========================================================= */
 
 .text-center img {
-  border-radius: 50%;
   width: 230px;
   height: 230px;
   object-fit: cover;
+
+  border-radius: 50%;
+
   margin-top: 10px;
-  margin-bottom: 30px;
+  margin-bottom: 25px;
 
-  box-shadow:
-    0 10px 30px rgba(31, 41, 55, 0.12);
+  box-shadow: 0 8px 24px rgba(31, 41, 55, 0.12);
 }
 
 
-/* ================================
-   PROJECT CARDS
-   ================================ */
+/* =========================================================
+   7. PROJECT CARDS
+   ========================================================= */
 
-.grid {
-  gap: 24px;
-}
+/*
+   This styles ONLY elements that you explicitly gave
+   the .project-card class in projects.qmd.
+
+   It does not alter Quarto's grid system.
+*/
 
 .project-card {
-  display: block;
-  height: 100%;
-
   background-color: #FFFFFF;
+
   border: 1px solid #E7E2DC;
-  border-radius: 16px;
+  border-radius: 14px;
 
-  padding: 30px;
+  padding: 26px;
 
-  color: #2D3748 !important;
-  text-decoration: none !important;
+  margin-bottom: 20px;
 
-  box-shadow: 0 4px 14px rgba(31, 41, 55, 0.05);
+  box-shadow: 0 4px 12px rgba(31, 41, 55, 0.05);
 
-  transition:
-    transform 0.2s ease,
-    box-shadow 0.2s ease,
-    border-color 0.2s ease;
+  transition: transform 0.2s ease,
+              box-shadow 0.2s ease,
+              border-color 0.2s ease;
 }
+
+
+/* Small hover effect */
 
 .project-card:hover {
-  transform: translateY(-6px);
+  transform: translateY(-4px);
 
-  border-color: #D5C7BE;
+  border-color: #D6C9C0;
 
-  box-shadow: 0 14px 32px rgba(31, 41, 55, 0.11);
-
-  text-decoration: none !important;
+  box-shadow: 0 10px 24px rgba(31, 41, 55, 0.09);
 }
 
 
-/* Project title */
+/* Project titles */
 
 .project-card h3 {
   color: #1F2937;
-  font-size: 1.45rem;
-  line-height: 1.3;
+
+  font-size: 1.3rem;
 
   margin-top: 0;
-  margin-bottom: 16px;
+  margin-bottom: 14px;
 }
 
 
-/* Regular card text */
+/* Project descriptions */
 
 .project-card p {
   color: #4B5563;
-  font-size: 0.96rem;
+  font-size: 0.95rem;
   line-height: 1.65;
 }
 
 
-/* Tools */
+/* Project links */
 
-.project-tools {
-  display: block;
-
-  color: #6B7280;
-
-  font-size: 0.86rem;
-  font-weight: 600;
-
-  margin-top: 22px;
-  margin-bottom: 22px;
-}
-
-
-/* View Project */
-
-.project-link {
-  display: inline-block;
-
+.project-card a {
   color: #A6533D;
 
-  font-size: 0.95rem;
-  font-weight: 650;
+  font-weight: 600;
 
-  margin-top: 5px;
-
-  transition: transform 0.2s ease;
+  text-decoration: none;
 }
 
-.project-card:hover .project-link {
-  transform: translateX(4px);
+.project-card a:hover {
+  color: #7D3E2E;
+  text-decoration: none;
 }
 
-/* ================================
-   PROJECT PAGE IMAGES
-   ================================ */
+
+/* =========================================================
+   8. IMAGES ON PROJECT PAGES
+   ========================================================= */
 
 main img {
   max-width: 100%;
   height: auto;
 }
 
+
+/*
+   Adds subtle styling to regular analytical images.
+   Does not affect layout or positioning.
+*/
+
 main p img {
   display: block;
-  margin: 30px auto 40px auto;
 
-  border-radius: 10px;
+  margin-top: 25px;
+  margin-bottom: 35px;
 
-  box-shadow:
-    0 5px 20px rgba(31, 41, 55, 0.08);
+  border-radius: 8px;
+
+  box-shadow: 0 4px 16px rgba(31, 41, 55, 0.07);
 }
 
 
-/* Don't make headshot rectangular */
+/*
+   Keep About Me headshot circular.
+*/
 
 .text-center img {
   border-radius: 50%;
 }
 
 
-/* ================================
-   BUTTONS
-   ================================ */
+/* =========================================================
+   9. BUTTONS
+   ========================================================= */
 
 .btn-primary {
   background-color: #A6533D;
   border-color: #A6533D;
 
+  color: #FFFFFF !important;
+
   border-radius: 8px;
 
-  padding: 11px 20px;
+  padding: 10px 18px;
 
   font-weight: 600;
 
-  transition:
-    background-color 0.2s ease,
-    transform 0.2s ease,
-    box-shadow 0.2s ease;
+  text-decoration: none;
 }
 
 .btn-primary:hover {
   background-color: #874330;
   border-color: #874330;
 
-  transform: translateY(-2px);
+  color: #FFFFFF !important;
 
-  box-shadow:
-    0 6px 15px rgba(166, 83, 61, 0.20);
+  text-decoration: none;
 }
 
 
-/* ================================
-   LISTS
-   ================================ */
-
-li {
-  margin-bottom: 7px;
-}
+/* =========================================================
+   10. LISTS
+   ========================================================= */
 
 ul,
 ol {
   padding-left: 1.4rem;
 }
 
+li {
+  margin-bottom: 6px;
+}
 
-/* ================================
-   HORIZONTAL RULES
-   ================================ */
+
+/* =========================================================
+   11. BOLD TEXT
+   ========================================================= */
+
+strong {
+  color: #273142;
+  font-weight: 650;
+}
+
+
+/* =========================================================
+   12. HORIZONTAL LINES
+   ========================================================= */
 
 hr {
-  border: none;
+  border: 0;
   border-top: 1px solid #E7E2DC;
+
   margin-top: 3rem;
   margin-bottom: 3rem;
 }
 
 
-/* ================================
-   STRONG / BOLD TEXT
-   ================================ */
+/* =========================================================
+   13. CODE
+   ========================================================= */
 
-strong {
-  color: #1F2937;
-  font-weight: 650;
+code {
+  background-color: #F1EDE8;
+  color: #7D3E2E;
+
+  padding: 2px 5px;
+
+  border-radius: 4px;
 }
 
 
-/* ================================
-   MOBILE
-   ================================ */
+/* =========================================================
+   14. SELECTION COLOR
+   ========================================================= */
+
+::selection {
+  background-color: #EAD8CF;
+  color: #1F2937;
+}
+
+
+/* =========================================================
+   15. MOBILE
+   ========================================================= */
 
 @media (max-width: 768px) {
 
@@ -323,16 +356,21 @@ strong {
   }
 
   main {
-    padding-left: 18px;
-    padding-right: 18px;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 20px;
   }
 
   h1 {
-    font-size: 2.2rem;
+    font-size: 2.1rem;
   }
 
   h2 {
-    font-size: 1.55rem;
+    font-size: 1.5rem;
+  }
+
+  h3 {
+    font-size: 1.2rem;
   }
 
   .text-center img {
@@ -340,7 +378,9 @@ strong {
     height: 190px;
   }
 
-  .g-col-md-4 {
+  .project-card {
+    padding: 22px;
     margin-bottom: 18px;
   }
+
 }
