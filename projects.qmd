@@ -8,9 +8,7 @@ Here are a few projects that highlight my experience across business intelligenc
 
 ::: {.grid}
 
-::: {.g-col-12 .g-col-md-4}
-
-<a href="projects/delivery-analysis.html" class="project-card">
+::: {.g-col-12 .g-col-md-4 .project-card}
 
 ### Delivery Performance Analysis
 
@@ -18,17 +16,13 @@ Here are a few projects that highlight my experience across business intelligenc
 
 Analyzed delivery operations from 2022–2025 to understand seasonal demand, truck capacity constraints, rescheduling patterns, and the relationship between temperature and operational performance.
 
-<span class="project-tools">Python • Pandas • Data Visualization • Correlation Analysis</span>
+**Python • Pandas • Data Visualization • Correlation Analysis**
 
-<span class="project-link">View Project →</span>
-
-</a>
+[View Project →](projects/delivery-analysis.qmd)
 
 :::
 
-::: {.g-col-12 .g-col-md-4}
-
-<a href="projects/airbnb-zurich.html" class="project-card">
+::: {.g-col-12 .g-col-md-4 .project-card}
 
 ### Airbnb Rentals in Zurich
 
@@ -36,17 +30,13 @@ Analyzed delivery operations from 2022–2025 to understand seasonal demand, tru
 
 Analyzed 2,534 Airbnb listings across Zurich using statistical modeling, machine learning, NLP, and clustering to explore pricing, host behavior, and distinct market segments.
 
-<span class="project-tools">Python • Scikit-learn • DistilBERT • K-Means</span>
+**Python • Scikit-learn • DistilBERT • K-Means**
 
-<span class="project-link">View Project →</span>
-
-</a>
+[View Project →](projects/airbnb-zurich.qmd)
 
 :::
 
-::: {.g-col-12 .g-col-md-4}
-
-<a href="projects/rag-system.html" class="project-card">
+::: {.g-col-12 .g-col-md-4 .project-card}
 
 ### Retrieval-Augmented Generation (RAG)
 
@@ -54,11 +44,9 @@ Analyzed 2,534 Airbnb listings across Zurich using statistical modeling, machine
 
 Currently developing a RAG system that combines document retrieval, vector search, and large language models to generate responses grounded in relevant source information.
 
-<span class="project-tools">Python • LLMs • Embeddings • Vector Search • FastAPI</span>
+**Python • LLMs • Embeddings • Vector Search • FastAPI**
 
-<span class="project-link">View Project →</span>
-
-</a>
+[View Project →](projects/rag-system.qmd)
 
 :::
 
