@@ -1,5 +1,96 @@
 [
   {
+    "objectID": "contact.html",
+    "href": "contact.html",
+    "title": "Contact",
+    "section": "",
+    "text": "Thanks for visiting my portfolio! I’m always happy to connect with people in analytics, technology, and related fields.\nWhether you’d like to discuss an opportunity, a project, or just connect, feel free to reach out.\n\n\nEmail\nrsnayak@bu.edu\nGitHub\nView my GitHub!"
+  },
+  {
+    "objectID": "contact.html#contact-me",
+    "href": "contact.html#contact-me",
+    "title": "Contact",
+    "section": "",
+    "text": "Email\nrsnayak@bu.edu\nGitHub\nView my GitHub!"
+  },
+  {
+    "objectID": "projects/delivery-analysis.html",
+    "href": "projects/delivery-analysis.html",
+    "title": "Delivery Performance Analysis",
+    "section": "",
+    "text": "← Back to Projects\nBusiness Intelligence Project | The Build Fellowship, Open Avenues Foundation"
+  },
+  {
+    "objectID": "projects/delivery-analysis.html#project-overview",
+    "href": "projects/delivery-analysis.html#project-overview",
+    "title": "Delivery Performance Analysis",
+    "section": "Project Overview",
+    "text": "Project Overview\nThis project focused on understanding what drives changes in delivery performance and truck capacity. I analyzed delivery operations from 2022–2025 and combined the data with historical temperature patterns from Dallas, Texas to explore whether changes in temperature were related to delivery demand, truck planning, and rescheduling.\nThe main goal was to separate the effects of seasonal demand from temperature and identify where operational planning could be improved."
+  },
+  {
+    "objectID": "projects/delivery-analysis.html#business-questions",
+    "href": "projects/delivery-analysis.html#business-questions",
+    "title": "Delivery Performance Analysis",
+    "section": "Business Questions",
+    "text": "Business Questions\nI focused the analysis around three main questions:\n\nWhen does delivery demand peak throughout the year?\nHow closely does actual truck capacity match expected capacity?\nDoes temperature have a meaningful relationship with delivery demand, truck capacity, or rescheduling?"
+  },
+  {
+    "objectID": "projects/delivery-analysis.html#delivery-demand",
+    "href": "projects/delivery-analysis.html#delivery-demand",
+    "title": "Delivery Performance Analysis",
+    "section": "Delivery Demand",
+    "text": "Delivery Demand\n\nDelivery volume shows a clear seasonal pattern. Average volume increased from approximately 12.8 million pounds in January to 17.3 million pounds in April, making March and April the busiest period of the year.\nAfter the spring peak, volume generally declined, although there was another increase in July. This pattern suggested that demand was not evenly distributed throughout the year and that capacity planning should account for predictable seasonal changes."
+  },
+  {
+    "objectID": "projects/delivery-analysis.html#truck-capacity",
+    "href": "projects/delivery-analysis.html#truck-capacity",
+    "title": "Delivery Performance Analysis",
+    "section": "Truck Capacity",
+    "text": "Truck Capacity\n\nComparing expected and actual trucks revealed a consistent capacity gap. Actual truck availability remained below expected truck requirements throughout the year.\nThe largest shortage occurred around June, when expected trucks reached approximately 50.7 while actual trucks were only around 40.2. The consistently negative truck variance showed that the operation was regularly working with fewer trucks than expected.\nThis was important because it showed that the challenge was not simply changing delivery demand. There was also a persistent difference between planned capacity and the resources actually available."
+  },
+  {
+    "objectID": "projects/delivery-analysis.html#relationship-between-operational-variables",
+    "href": "projects/delivery-analysis.html#relationship-between-operational-variables",
+    "title": "Delivery Performance Analysis",
+    "section": "Relationship Between Operational Variables",
+    "text": "Relationship Between Operational Variables\n\nI used a correlation matrix to better understand how the operational variables moved together.\nSome of the strongest relationships included:\n\nDelivery pounds and delivery quantity: 0.93\nExpected and actual trucks: 0.61\nTemperature and expected trucks: 0.79\nTemperature and actual trucks: 0.61\nRescheduled quantity and reschedule rate: 0.79\n\nOne result that stood out was the difference between temperature’s relationship with expected trucks and its relationship with actual delivery activity. Temperature had a relatively strong relationship with expected truck requirements, but weaker relationships with total delivery pounds (0.39) and delivery quantity (0.49).\nThis suggested that temperature and seasonality may be more closely connected to planning decisions than to actual delivery demand itself."
+  },
+  {
+    "objectID": "projects/delivery-analysis.html#temperature-and-truck-planning",
+    "href": "projects/delivery-analysis.html#temperature-and-truck-planning",
+    "title": "Delivery Performance Analysis",
+    "section": "Temperature and Truck Planning",
+    "text": "Temperature and Truck Planning\nThe temperature relationship became clearer when I looked at expected and actual trucks separately.\n\n\nExpected Trucks\n\nTemperature had a relatively strong positive relationship with expected truck requirements (r = 0.79). As average temperatures increased, the number of trucks expected by the operation generally increased as well.\n\n\nActual Trucks\n\nThe relationship between temperature and actual trucks was weaker (r = 0.61). Actual truck availability varied more and did not increase as consistently with temperature.\n\n\nLooking at these results together helped distinguish planning from actual capacity. Expected truck requirements responded more closely to seasonal temperature patterns, while the number of trucks actually available did not follow those patterns as strongly."
+  },
+  {
+    "objectID": "projects/delivery-analysis.html#key-findings",
+    "href": "projects/delivery-analysis.html#key-findings",
+    "title": "Delivery Performance Analysis",
+    "section": "Key Findings",
+    "text": "Key Findings\nOverall, the analysis showed that seasonal demand and capacity constraints were more important drivers of delivery performance than temperature alone.\n\nDelivery demand increased significantly during the spring and peaked around March and April.\nActual truck capacity remained below expected capacity throughout the year.\nTruck shortages continued during periods of high demand and were particularly large around June.\nHigher demand was associated with increased rescheduling.\nTemperature had relatively weak relationships with actual delivery activity.\nTemperature had a stronger relationship with expected truck requirements, suggesting a greater connection to operational planning than to delivery performance itself."
+  },
+  {
+    "objectID": "projects/delivery-analysis.html#business-recommendations",
+    "href": "projects/delivery-analysis.html#business-recommendations",
+    "title": "Delivery Performance Analysis",
+    "section": "Business Recommendations",
+    "text": "Business Recommendations\nBased on these findings, I identified three areas where operational planning could be improved:\n\nImprove truck allocation during peak spring demand. March and April consistently showed some of the highest delivery activity, so additional capacity should be planned before the seasonal increase occurs.\nIncrease capacity planning during periods with larger truck shortages. The gap between expected and actual trucks was especially noticeable around June, suggesting that expected demand was not always matched by available resources.\nPlan around demand patterns rather than temperature alone. Temperature provides useful seasonal context, but the analysis showed that actual delivery demand and capacity constraints are more important indicators for resource allocation."
+  },
+  {
+    "objectID": "projects/delivery-analysis.html#limitations",
+    "href": "projects/delivery-analysis.html#limitations",
+    "title": "Delivery Performance Analysis",
+    "section": "Limitations",
+    "text": "Limitations\nThere were several limitations to consider when interpreting the results.\nThe temperature data represented long-term historical averages from 1948–2022, while the operational delivery data covered 2022–2025. This required the analysis to assume that more recent temperature patterns were reasonably consistent with historical seasonal averages.\nAggregating the data by month also resulted in only 12 monthly observations, which limits the depth of statistical analysis that can be performed.\nFinally, other factors that could affect delivery performance, such as labor availability, fuel costs, holidays, and other operational conditions, were not included in the dataset."
+  },
+  {
+    "objectID": "projects/delivery-analysis.html#takeaway",
+    "href": "projects/delivery-analysis.html#takeaway",
+    "title": "Delivery Performance Analysis",
+    "section": "Takeaway",
+    "text": "Takeaway\nThis project helped me see how an initial question about weather developed into a broader operational finding. Temperature showed some relationship with truck planning, but the larger issue was the mismatch between seasonal demand and available capacity.\nThe analysis ultimately shifted the focus from simply asking whether weather affects deliveries to identifying when capacity shortages occur and how historical demand patterns can be used to plan resources more effectively.\n← Back to Projects"
+  },
+  {
     "objectID": "about.html",
     "href": "about.html",
     "title": "About Me",
@@ -26,6 +117,90 @@
     "title": "About Me",
     "section": "Career Goals",
     "text": "Career Goals\nAs I continue building my experience, I hope to pursue roles in data analytics, business intelligence, and related areas where I can work with real business problems from beginning to end.\nI’m particularly interested in opportunities where I can combine technical analysis with business context, whether that means investigating performance trends, building dashboards and analytical tools, developing data-driven recommendations, or working with emerging technologies."
+  },
+  {
+    "objectID": "projects.html",
+    "href": "projects.html",
+    "title": "Projects",
+    "section": "",
+    "text": "Here are a few projects that highlight my experience across business intelligence, data analytics, machine learning, and AI. Click on a project to learn more about the methods, analysis, and results.\n\n\nDelivery Performance Analysis\nBusiness Intelligence & Operations Analytics\nAnalyzed delivery operations from 2022–2025 to understand seasonal demand, truck capacity constraints, rescheduling patterns, and the relationship between temperature and operational performance.\n\nPython • Pandas • NumPy • Matplotlib • Seaborn • Statistical Analysis • Correlation Analysis\n\nView Project →\n\n\nAirbnb Rentals in Zurich\nMachine Learning & Market Analytics\nAnalyzed 2,534 Airbnb listings across Zurich using statistical modeling, machine learning, NLP, and clustering to explore pricing, host behavior, and distinct market segments.\n\nPython • Pandas • NumPy • Scikit-learn • Statsmodels • DistilBERT • K-Means • NLP\n\nView Project →\n\n\nRetrieval-Augmented Generation (RAG)\n\n In Progress\n\nAI Engineering\nCurrently developing a RAG system that combines document retrieval, vector search, and large language models to generate responses grounded in relevant source information.\n\nPython • FastAPI • LLMs • Embeddings • Vector Search • RAG • NLP\n\nView Project →"
+  },
+  {
+    "objectID": "cv.html",
+    "href": "cv.html",
+    "title": "CV",
+    "section": "",
+    "text": "I’m a graduate student studying analytics at Boston University with a background in cognitive science and computer science. My experience spans data analytics, business intelligence, product strategy, UX research, machine learning, and AI, with a focus on using data and technology to solve practical business problems.\nIn my current role at Bosch Home Comfort, I work with sales, training, and technical support data using Excel and SQL, support recurring Power BI reporting, and build Microsoft Copilot Agents to improve access to product and technical information. Previously, at Immergo Labs, I worked on product strategy and UX research for a virtual reality telehealth platform, where I led stakeholder research and contributed to feature prioritization, user experience, B2B strategy, and subscription pricing.\nAlongside my professional experience, I’ve worked on projects involving market analytics, machine learning, and AI engineering. My work has included applying regression, KNN, decision trees, NLP, and clustering to Airbnb market data, as well as developing a retrieval-augmented generation system using Python, embeddings, vector search, language models, and FastAPI. I’m especially interested in opportunities where I can combine analytics, technology, and business strategy to turn complex information into useful insights and solutions."
+  },
+  {
+    "objectID": "cv.html#professional-background",
+    "href": "cv.html#professional-background",
+    "title": "CV",
+    "section": "",
+    "text": "I’m a graduate student studying analytics at Boston University with a background in cognitive science and computer science. My experience spans data analytics, business intelligence, product strategy, UX research, machine learning, and AI, with a focus on using data and technology to solve practical business problems.\nIn my current role at Bosch Home Comfort, I work with sales, training, and technical support data using Excel and SQL, support recurring Power BI reporting, and build Microsoft Copilot Agents to improve access to product and technical information. Previously, at Immergo Labs, I worked on product strategy and UX research for a virtual reality telehealth platform, where I led stakeholder research and contributed to feature prioritization, user experience, B2B strategy, and subscription pricing.\nAlongside my professional experience, I’ve worked on projects involving market analytics, machine learning, and AI engineering. My work has included applying regression, KNN, decision trees, NLP, and clustering to Airbnb market data, as well as developing a retrieval-augmented generation system using Python, embeddings, vector search, language models, and FastAPI. I’m especially interested in opportunities where I can combine analytics, technology, and business strategy to turn complex information into useful insights and solutions."
+  },
+  {
+    "objectID": "cv.html#download-my-cv",
+    "href": "cv.html#download-my-cv",
+    "title": "CV",
+    "section": "Download My CV",
+    "text": "Download My CV\nA PDF version of my CV is available below.\nDownload CV (PDF) ↓"
+  },
+  {
+    "objectID": "projects/rag-system.html",
+    "href": "projects/rag-system.html",
+    "title": "Retrieval-Augmented Generation (RAG) System",
+    "section": "",
+    "text": "← Back to Projects\nAI Engineering Project | The Build Fellowship, Open Avenues Foundation\nStatus: In Progress"
+  },
+  {
+    "objectID": "projects/rag-system.html#project-overview",
+    "href": "projects/rag-system.html#project-overview",
+    "title": "Retrieval-Augmented Generation (RAG) System",
+    "section": "Project Overview",
+    "text": "Project Overview\nI am currently working on a Retrieval-Augmented Generation (RAG) project focused on building a system that can answer questions using information retrieved from a collection of documents.\nThe goal of the project is to explore how large language models can be combined with external information sources so that generated responses are grounded in relevant document content rather than relying only on the model’s existing knowledge."
+  },
+  {
+    "objectID": "projects/rag-system.html#what-is-rag",
+    "href": "projects/rag-system.html#what-is-rag",
+    "title": "Retrieval-Augmented Generation (RAG) System",
+    "section": "What is RAG?",
+    "text": "What is RAG?\nRetrieval-Augmented Generation combines information retrieval with a large language model.\nInstead of sending a question directly to the language model, the system first searches a collection of documents for information that is relevant to the user’s question. The retrieved context is then provided to the language model along with the question so it can generate a more informed and grounded response.\nAt a high level, the process follows:\nDocuments → Processing & Chunking → Embeddings → Vector Search → Relevant Context → LLM → Response"
+  },
+  {
+    "objectID": "projects/rag-system.html#what-im-working-on",
+    "href": "projects/rag-system.html#what-im-working-on",
+    "title": "Retrieval-Augmented Generation (RAG) System",
+    "section": "What I’m Working On",
+    "text": "What I’m Working On\nMy work on the project involves developing and connecting the different components of the RAG pipeline, including:\n\nPreparing and processing source documents for retrieval.\nBreaking larger documents into smaller chunks that can be searched more effectively.\nCreating embeddings that represent the meaning of document content numerically.\nUsing vector similarity search to identify document chunks that are most relevant to a user’s question.\nProviding retrieved context to a large language model before generating a response.\nDeveloping the backend workflow needed to connect retrieval and generation.\nUsing FastAPI to support communication between different components of the system.\nTesting different approaches to improve the relevance and quality of retrieved information."
+  },
+  {
+    "objectID": "projects/rag-system.html#why-retrieval-matters",
+    "href": "projects/rag-system.html#why-retrieval-matters",
+    "title": "Retrieval-Augmented Generation (RAG) System",
+    "section": "Why Retrieval Matters",
+    "text": "Why Retrieval Matters\nOne of the main challenges in a RAG system is making sure the model receives the right information before it generates an answer.\nIf the retrieval step returns irrelevant or incomplete context, even a strong language model may produce a weak response. Because of this, I am learning that building a RAG system involves more than simply connecting a vector database to an LLM. Decisions around document preparation, chunking, embeddings, retrieval, and prompting can all affect the final result."
+  },
+  {
+    "objectID": "projects/rag-system.html#current-focus",
+    "href": "projects/rag-system.html#current-focus",
+    "title": "Retrieval-Augmented Generation (RAG) System",
+    "section": "Current Focus",
+    "text": "Current Focus\nSince this project is still in progress, I am continuing to develop and test the different parts of the pipeline.\nMy current focus is on understanding how the retrieval and generation components work together, improving the quality of retrieved context, and building a reliable workflow for moving from a user’s question to a grounded response.\nAs the project progresses, I plan to continue evaluating the system and documenting the final architecture, implementation decisions, and results."
+  },
+  {
+    "objectID": "projects/rag-system.html#what-im-learning",
+    "href": "projects/rag-system.html#what-im-learning",
+    "title": "Retrieval-Augmented Generation (RAG) System",
+    "section": "What I’m Learning",
+    "text": "What I’m Learning\nThis project is giving me hands-on experience with a different area of data and AI than my previous analytics projects. In addition to working with Python, I am learning how unstructured documents can be transformed into searchable representations and how retrieval systems can be integrated with large language models.\nIt has also helped me better understand the importance of the systems surrounding an AI model. The quality of an AI application depends not only on the model itself, but also on how information is processed, retrieved, passed to the model, and returned to the user."
+  },
+  {
+    "objectID": "projects/rag-system.html#project-status",
+    "href": "projects/rag-system.html#project-status",
+    "title": "Retrieval-Augmented Generation (RAG) System",
+    "section": "Project Status",
+    "text": "Project Status\nCurrently in development.\nI will continue updating this project as I complete the RAG pipeline and evaluate its performance.\n← Back to Projects"
   },
   {
     "objectID": "projects/airbnb-zurich.html",
@@ -110,180 +285,5 @@
     "title": "Airbnb Rentals in Zurich",
     "section": "Takeaway",
     "text": "Takeaway\nThe biggest takeaway from this project was that there was no single model that explained the entire Airbnb market. Regression helped us investigate price, classification models explored listing and host behavior, the transformer allowed us to work with unstructured text, and clustering revealed broader market segments.\nWorking with several approaches on the same dataset also showed me how important it is to choose a method based on the question being asked rather than simply applying the most complex model available.\n← Back to Projects"
-  },
-  {
-    "objectID": "projects/delivery-analysis.html",
-    "href": "projects/delivery-analysis.html",
-    "title": "Delivery Performance Analysis",
-    "section": "",
-    "text": "← Back to Projects\nBusiness Intelligence Project | The Build Fellowship, Open Avenues Foundation"
-  },
-  {
-    "objectID": "projects/delivery-analysis.html#project-overview",
-    "href": "projects/delivery-analysis.html#project-overview",
-    "title": "Delivery Performance Analysis",
-    "section": "Project Overview",
-    "text": "Project Overview\nThis project focused on understanding what drives changes in delivery performance and truck capacity. I analyzed delivery operations from 2022–2025 and combined the data with historical temperature patterns from Dallas, Texas to explore whether changes in temperature were related to delivery demand, truck planning, and rescheduling.\nThe main goal was to separate the effects of seasonal demand from temperature and identify where operational planning could be improved."
-  },
-  {
-    "objectID": "projects/delivery-analysis.html#business-questions",
-    "href": "projects/delivery-analysis.html#business-questions",
-    "title": "Delivery Performance Analysis",
-    "section": "Business Questions",
-    "text": "Business Questions\nI focused the analysis around three main questions:\n\nWhen does delivery demand peak throughout the year?\nHow closely does actual truck capacity match expected capacity?\nDoes temperature have a meaningful relationship with delivery demand, truck capacity, or rescheduling?"
-  },
-  {
-    "objectID": "projects/delivery-analysis.html#delivery-demand",
-    "href": "projects/delivery-analysis.html#delivery-demand",
-    "title": "Delivery Performance Analysis",
-    "section": "Delivery Demand",
-    "text": "Delivery Demand\n\nDelivery volume shows a clear seasonal pattern. Average volume increased from approximately 12.8 million pounds in January to 17.3 million pounds in April, making March and April the busiest period of the year.\nAfter the spring peak, volume generally declined, although there was another increase in July. This pattern suggested that demand was not evenly distributed throughout the year and that capacity planning should account for predictable seasonal changes."
-  },
-  {
-    "objectID": "projects/delivery-analysis.html#truck-capacity",
-    "href": "projects/delivery-analysis.html#truck-capacity",
-    "title": "Delivery Performance Analysis",
-    "section": "Truck Capacity",
-    "text": "Truck Capacity\n\nComparing expected and actual trucks revealed a consistent capacity gap. Actual truck availability remained below expected truck requirements throughout the year.\nThe largest shortage occurred around June, when expected trucks reached approximately 50.7 while actual trucks were only around 40.2. The consistently negative truck variance showed that the operation was regularly working with fewer trucks than expected.\nThis was important because it showed that the challenge was not simply changing delivery demand. There was also a persistent difference between planned capacity and the resources actually available."
-  },
-  {
-    "objectID": "projects/delivery-analysis.html#relationship-between-operational-variables",
-    "href": "projects/delivery-analysis.html#relationship-between-operational-variables",
-    "title": "Delivery Performance Analysis",
-    "section": "Relationship Between Operational Variables",
-    "text": "Relationship Between Operational Variables\n\nI used a correlation matrix to better understand how the operational variables moved together.\nSome of the strongest relationships included:\n\nDelivery pounds and delivery quantity: 0.93\nExpected and actual trucks: 0.61\nTemperature and expected trucks: 0.79\nTemperature and actual trucks: 0.61\nRescheduled quantity and reschedule rate: 0.79\n\nOne result that stood out was the difference between temperature’s relationship with expected trucks and its relationship with actual delivery activity. Temperature had a relatively strong relationship with expected truck requirements, but weaker relationships with total delivery pounds (0.39) and delivery quantity (0.49).\nThis suggested that temperature and seasonality may be more closely connected to planning decisions than to actual delivery demand itself."
-  },
-  {
-    "objectID": "projects/delivery-analysis.html#temperature-and-truck-planning",
-    "href": "projects/delivery-analysis.html#temperature-and-truck-planning",
-    "title": "Delivery Performance Analysis",
-    "section": "Temperature and Truck Planning",
-    "text": "Temperature and Truck Planning\nThe temperature relationship became clearer when I looked at expected and actual trucks separately.\n\n\nExpected Trucks\n\nTemperature had a relatively strong positive relationship with expected truck requirements (r = 0.79). As average temperatures increased, the number of trucks expected by the operation generally increased as well.\n\n\nActual Trucks\n\nThe relationship between temperature and actual trucks was weaker (r = 0.61). Actual truck availability varied more and did not increase as consistently with temperature.\n\n\nLooking at these results together helped distinguish planning from actual capacity. Expected truck requirements responded more closely to seasonal temperature patterns, while the number of trucks actually available did not follow those patterns as strongly."
-  },
-  {
-    "objectID": "projects/delivery-analysis.html#key-findings",
-    "href": "projects/delivery-analysis.html#key-findings",
-    "title": "Delivery Performance Analysis",
-    "section": "Key Findings",
-    "text": "Key Findings\nOverall, the analysis showed that seasonal demand and capacity constraints were more important drivers of delivery performance than temperature alone.\n\nDelivery demand increased significantly during the spring and peaked around March and April.\nActual truck capacity remained below expected capacity throughout the year.\nTruck shortages continued during periods of high demand and were particularly large around June.\nHigher demand was associated with increased rescheduling.\nTemperature had relatively weak relationships with actual delivery activity.\nTemperature had a stronger relationship with expected truck requirements, suggesting a greater connection to operational planning than to delivery performance itself."
-  },
-  {
-    "objectID": "projects/delivery-analysis.html#business-recommendations",
-    "href": "projects/delivery-analysis.html#business-recommendations",
-    "title": "Delivery Performance Analysis",
-    "section": "Business Recommendations",
-    "text": "Business Recommendations\nBased on these findings, I identified three areas where operational planning could be improved:\n\nImprove truck allocation during peak spring demand. March and April consistently showed some of the highest delivery activity, so additional capacity should be planned before the seasonal increase occurs.\nIncrease capacity planning during periods with larger truck shortages. The gap between expected and actual trucks was especially noticeable around June, suggesting that expected demand was not always matched by available resources.\nPlan around demand patterns rather than temperature alone. Temperature provides useful seasonal context, but the analysis showed that actual delivery demand and capacity constraints are more important indicators for resource allocation."
-  },
-  {
-    "objectID": "projects/delivery-analysis.html#limitations",
-    "href": "projects/delivery-analysis.html#limitations",
-    "title": "Delivery Performance Analysis",
-    "section": "Limitations",
-    "text": "Limitations\nThere were several limitations to consider when interpreting the results.\nThe temperature data represented long-term historical averages from 1948–2022, while the operational delivery data covered 2022–2025. This required the analysis to assume that more recent temperature patterns were reasonably consistent with historical seasonal averages.\nAggregating the data by month also resulted in only 12 monthly observations, which limits the depth of statistical analysis that can be performed.\nFinally, other factors that could affect delivery performance, such as labor availability, fuel costs, holidays, and other operational conditions, were not included in the dataset."
-  },
-  {
-    "objectID": "projects/delivery-analysis.html#takeaway",
-    "href": "projects/delivery-analysis.html#takeaway",
-    "title": "Delivery Performance Analysis",
-    "section": "Takeaway",
-    "text": "Takeaway\nThis project helped me see how an initial question about weather developed into a broader operational finding. Temperature showed some relationship with truck planning, but the larger issue was the mismatch between seasonal demand and available capacity.\nThe analysis ultimately shifted the focus from simply asking whether weather affects deliveries to identifying when capacity shortages occur and how historical demand patterns can be used to plan resources more effectively.\n← Back to Projects"
-  },
-  {
-    "objectID": "contact.html",
-    "href": "contact.html",
-    "title": "Contact",
-    "section": "",
-    "text": "Thanks for visiting my portfolio! I’m always happy to connect with people in analytics, technology, and related fields.\nWhether you’d like to discuss an opportunity, a project, or just connect, feel free to reach out.\n\n\nEmail\nrsnayak@bu.edu\nGitHub\nView my GitHub!"
-  },
-  {
-    "objectID": "contact.html#contact-me",
-    "href": "contact.html#contact-me",
-    "title": "Contact",
-    "section": "",
-    "text": "Email\nrsnayak@bu.edu\nGitHub\nView my GitHub!"
-  },
-  {
-    "objectID": "projects/rag-system.html",
-    "href": "projects/rag-system.html",
-    "title": "Retrieval-Augmented Generation (RAG) System",
-    "section": "",
-    "text": "← Back to Projects\nAI Engineering Project | The Build Fellowship, Open Avenues Foundation\nStatus: In Progress"
-  },
-  {
-    "objectID": "projects/rag-system.html#project-overview",
-    "href": "projects/rag-system.html#project-overview",
-    "title": "Retrieval-Augmented Generation (RAG) System",
-    "section": "Project Overview",
-    "text": "Project Overview\nI am currently working on a Retrieval-Augmented Generation (RAG) project focused on building a system that can answer questions using information retrieved from a collection of documents.\nThe goal of the project is to explore how large language models can be combined with external information sources so that generated responses are grounded in relevant document content rather than relying only on the model’s existing knowledge."
-  },
-  {
-    "objectID": "projects/rag-system.html#what-is-rag",
-    "href": "projects/rag-system.html#what-is-rag",
-    "title": "Retrieval-Augmented Generation (RAG) System",
-    "section": "What is RAG?",
-    "text": "What is RAG?\nRetrieval-Augmented Generation combines information retrieval with a large language model.\nInstead of sending a question directly to the language model, the system first searches a collection of documents for information that is relevant to the user’s question. The retrieved context is then provided to the language model along with the question so it can generate a more informed and grounded response.\nAt a high level, the process follows:\nDocuments → Processing & Chunking → Embeddings → Vector Search → Relevant Context → LLM → Response"
-  },
-  {
-    "objectID": "projects/rag-system.html#what-im-working-on",
-    "href": "projects/rag-system.html#what-im-working-on",
-    "title": "Retrieval-Augmented Generation (RAG) System",
-    "section": "What I’m Working On",
-    "text": "What I’m Working On\nMy work on the project involves developing and connecting the different components of the RAG pipeline, including:\n\nPreparing and processing source documents for retrieval.\nBreaking larger documents into smaller chunks that can be searched more effectively.\nCreating embeddings that represent the meaning of document content numerically.\nUsing vector similarity search to identify document chunks that are most relevant to a user’s question.\nProviding retrieved context to a large language model before generating a response.\nDeveloping the backend workflow needed to connect retrieval and generation.\nUsing FastAPI to support communication between different components of the system.\nTesting different approaches to improve the relevance and quality of retrieved information."
-  },
-  {
-    "objectID": "projects/rag-system.html#why-retrieval-matters",
-    "href": "projects/rag-system.html#why-retrieval-matters",
-    "title": "Retrieval-Augmented Generation (RAG) System",
-    "section": "Why Retrieval Matters",
-    "text": "Why Retrieval Matters\nOne of the main challenges in a RAG system is making sure the model receives the right information before it generates an answer.\nIf the retrieval step returns irrelevant or incomplete context, even a strong language model may produce a weak response. Because of this, I am learning that building a RAG system involves more than simply connecting a vector database to an LLM. Decisions around document preparation, chunking, embeddings, retrieval, and prompting can all affect the final result."
-  },
-  {
-    "objectID": "projects/rag-system.html#current-focus",
-    "href": "projects/rag-system.html#current-focus",
-    "title": "Retrieval-Augmented Generation (RAG) System",
-    "section": "Current Focus",
-    "text": "Current Focus\nSince this project is still in progress, I am continuing to develop and test the different parts of the pipeline.\nMy current focus is on understanding how the retrieval and generation components work together, improving the quality of retrieved context, and building a reliable workflow for moving from a user’s question to a grounded response.\nAs the project progresses, I plan to continue evaluating the system and documenting the final architecture, implementation decisions, and results."
-  },
-  {
-    "objectID": "projects/rag-system.html#what-im-learning",
-    "href": "projects/rag-system.html#what-im-learning",
-    "title": "Retrieval-Augmented Generation (RAG) System",
-    "section": "What I’m Learning",
-    "text": "What I’m Learning\nThis project is giving me hands-on experience with a different area of data and AI than my previous analytics projects. In addition to working with Python, I am learning how unstructured documents can be transformed into searchable representations and how retrieval systems can be integrated with large language models.\nIt has also helped me better understand the importance of the systems surrounding an AI model. The quality of an AI application depends not only on the model itself, but also on how information is processed, retrieved, passed to the model, and returned to the user."
-  },
-  {
-    "objectID": "projects/rag-system.html#project-status",
-    "href": "projects/rag-system.html#project-status",
-    "title": "Retrieval-Augmented Generation (RAG) System",
-    "section": "Project Status",
-    "text": "Project Status\nCurrently in development.\nI will continue updating this project as I complete the RAG pipeline and evaluate its performance.\n← Back to Projects"
-  },
-  {
-    "objectID": "cv.html",
-    "href": "cv.html",
-    "title": "CV",
-    "section": "",
-    "text": "I’m a graduate student studying analytics at Boston University with a background in cognitive science and computer science. My experience spans data analytics, business intelligence, product strategy, UX research, machine learning, and AI, with a focus on using data and technology to solve practical business problems.\nIn my current role at Bosch Home Comfort, I work with sales, training, and technical support data using Excel and SQL, support recurring Power BI reporting, and build Microsoft Copilot Agents to improve access to product and technical information. Previously, at Immergo Labs, I worked on product strategy and UX research for a virtual reality telehealth platform, where I led stakeholder research and contributed to feature prioritization, user experience, B2B strategy, and subscription pricing.\nAlongside my professional experience, I’ve worked on projects involving market analytics, machine learning, and AI engineering. My work has included applying regression, KNN, decision trees, NLP, and clustering to Airbnb market data, as well as developing a retrieval-augmented generation system using Python, embeddings, vector search, language models, and FastAPI. I’m especially interested in opportunities where I can combine analytics, technology, and business strategy to turn complex information into useful insights and solutions."
-  },
-  {
-    "objectID": "cv.html#professional-background",
-    "href": "cv.html#professional-background",
-    "title": "CV",
-    "section": "",
-    "text": "I’m a graduate student studying analytics at Boston University with a background in cognitive science and computer science. My experience spans data analytics, business intelligence, product strategy, UX research, machine learning, and AI, with a focus on using data and technology to solve practical business problems.\nIn my current role at Bosch Home Comfort, I work with sales, training, and technical support data using Excel and SQL, support recurring Power BI reporting, and build Microsoft Copilot Agents to improve access to product and technical information. Previously, at Immergo Labs, I worked on product strategy and UX research for a virtual reality telehealth platform, where I led stakeholder research and contributed to feature prioritization, user experience, B2B strategy, and subscription pricing.\nAlongside my professional experience, I’ve worked on projects involving market analytics, machine learning, and AI engineering. My work has included applying regression, KNN, decision trees, NLP, and clustering to Airbnb market data, as well as developing a retrieval-augmented generation system using Python, embeddings, vector search, language models, and FastAPI. I’m especially interested in opportunities where I can combine analytics, technology, and business strategy to turn complex information into useful insights and solutions."
-  },
-  {
-    "objectID": "cv.html#download-my-cv",
-    "href": "cv.html#download-my-cv",
-    "title": "CV",
-    "section": "Download My CV",
-    "text": "Download My CV\nA PDF version of my CV is available below.\nDownload CV (PDF) ↓"
-  },
-  {
-    "objectID": "projects.html",
-    "href": "projects.html",
-    "title": "Projects",
-    "section": "",
-    "text": "Here are a few projects that highlight my experience across business intelligence, data analytics, machine learning, and AI. Click on a project to learn more about the methods, analysis, and results.\n\n\nDelivery Performance Analysis\nBusiness Intelligence & Operations Analytics\nAnalyzed delivery operations from 2022–2025 to understand seasonal demand, truck capacity constraints, rescheduling patterns, and the relationship between temperature and operational performance.\n\nPython • Pandas • NumPy • Matplotlib • Seaborn • Statistical Analysis • Correlation Analysis\n\nView Project →\n\n\nAirbnb Rentals in Zurich\nMachine Learning & Market Analytics\nAnalyzed 2,534 Airbnb listings across Zurich using statistical modeling, machine learning, NLP, and clustering to explore pricing, host behavior, and distinct market segments.\n\nPython • Pandas • NumPy • Scikit-learn • Statsmodels • DistilBERT • K-Means • NLP\n\nView Project →\n\n\nRetrieval-Augmented Generation (RAG)\n\n In Progress\n\nAI Engineering\nCurrently developing a RAG system that combines document retrieval, vector search, and large language models to generate responses grounded in relevant source information.\n\nPython • FastAPI • LLMs • Embeddings • Vector Search • RAG • NLP\n\nView Project →"
   }
 ]
