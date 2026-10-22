@@ -1,31 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://rs-nayak.github.io/about.html</loc>
-    <lastmod>2026-10-22T22:34:48.045Z</lastmod>
-  </url>
-  <url>
-    <loc>https://rs-nayak.github.io/projects.html</loc>
-    <lastmod>2026-10-22T22:34:48.055Z</lastmod>
-  </url>
-  <url>
-    <loc>https://rs-nayak.github.io/projects/airbnb-zurich.html</loc>
-    <lastmod>2026-10-22T22:34:48.055Z</lastmod>
-  </url>
-  <url>
     <loc>https://rs-nayak.github.io/contact.html</loc>
-    <lastmod>2026-10-22T22:34:48.045Z</lastmod>
-  </url>
-  <url>
-    <loc>https://rs-nayak.github.io/projects/rag-system.html</loc>
-    <lastmod>2026-10-22T22:34:48.055Z</lastmod>
+    <lastmod>2026-10-22T22:35:50.614Z</lastmod>
   </url>
   <url>
     <loc>https://rs-nayak.github.io/projects/delivery-analysis.html</loc>
-    <lastmod>2026-10-22T22:34:48.055Z</lastmod>
+    <lastmod>2026-10-22T22:35:50.628Z</lastmod>
+  </url>
+  <url>
+    <loc>https://rs-nayak.github.io/about.html</loc>
+    <lastmod>2026-10-22T22:35:50.614Z</lastmod>
+  </url>
+  <url>
+    <loc>https://rs-nayak.github.io/projects.html</loc>
+    <lastmod>2026-10-22T22:35:50.627Z</lastmod>
   </url>
   <url>
     <loc>https://rs-nayak.github.io/index.html</loc>
-    <lastmod>2026-10-22T22:34:48.055Z</lastmod>
+    <lastmod>2026-10-22T22:35:50.626Z</lastmod>
+  </url>
+  <url>
+    <loc>https://rs-nayak.github.io/projects/rag-system.html</loc>
+    <lastmod>2026-10-22T22:35:50.628Z</lastmod>
+  </url>
+  <url>
+    <loc>https://rs-nayak.github.io/projects/airbnb-zurich.html</loc>
+    <lastmod>2026-10-22T22:35:50.627Z</lastmod>
   </url>
 </urlset>
